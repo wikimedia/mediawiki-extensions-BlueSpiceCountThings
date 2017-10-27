@@ -1,0 +1,9 @@
+{
+	"name": "mediawiki/blue-spice-count-things",
+	"type": "mediawiki-extension",
+	"description": "Provides content based statistics",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

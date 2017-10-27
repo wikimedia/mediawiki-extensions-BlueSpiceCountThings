@@ -1,0 +1,28 @@
+{
+	"name": "BlueSpiceCountThings",
+	"version": "3.0.0-alpha",
+	"url": "https://help.bluespice.com/index.php/CountThings",
+	"author": [
+		"Markus Glaser",
+		"Mathias Scheer"
+	],
+	"descriptionmsg": "bs-countthings-desc",
+	"type": "bluespice",
+	"bsgExtensions": {
+		"BlueSpiceCountThings": {
+			"className": "CountThings",
+			"extPath": "/BlueSpiceCountThings"
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceCountThings": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CountThings": "CountThings.class.php",
+		"ViewCountCharacters": "views/view.CountCharacters.php"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 1
+}
