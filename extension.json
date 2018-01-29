@@ -9,11 +9,20 @@
 	],
 	"descriptionmsg": "bs-countthings-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.0.0"
+		}
+	},
 	"bsgExtensions": {
 		"BlueSpiceCountThings": {
 			"className": "CountThings",
 			"extPath": "/BlueSpiceCountThings"
 		}
+	},
+	"BlueSpiceFoundationTagRegistry": {
+		"bs-countfiles": "BlueSpice\\CountThings\\Tag\\CountFiles"
 	},
 	"MessagesDirs": {
 		"BlueSpiceCountThings": [
@@ -23,6 +32,9 @@
 	"AutoloadClasses": {
 		"CountThings": "CountThings.class.php",
 		"ViewCountCharacters": "views/view.CountCharacters.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\CountThings\\": "src/"
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 1
