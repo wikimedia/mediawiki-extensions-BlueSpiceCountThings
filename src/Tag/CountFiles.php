@@ -3,7 +3,7 @@
 namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\Tag\Tag;
-use ParamProcessor\ParamDefinition;
+use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
 use BlueSpice\Tag\GenericHandler;
 
