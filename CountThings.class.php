@@ -40,10 +40,8 @@
 class CountThings extends BsExtensionMW {
 
     protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$this->setHook( 'BSInsertMagicAjaxGetData', 'onBSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
