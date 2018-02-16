@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
 	"bs-countthings-desc": "提供內容的統計資訊",
@@ -10,7 +11,12 @@
 	"bs-countthings-words-label": "單字",
 	"bs-countthings-pages-label": "頁面",
 	"bs-countthings-error-no-input": "未提供頁面。",
+	"bs-countthings-error-invalid-mode": "模式「$1」無效，請使用「chars」、「words」，或是「pages」。",
 	"bs-countthings-error-not-exist": "頁面 \"$1\" 不存在。",
-	"bs-countthings-tag-countarticles-desc": "顯示頁面數。",
-	"bs-countthings-tag-countusers-desc": "顯示使用者數。"
+	"bs-countthings-tag-countarticles-desc": "顯示在 wiki 的條目數。",
+	"bs-countthings-tag-countusers-desc": "顯示已註冊使用者數。",
+	"bs-countthings-tag-countcharacters-desc": "產生在指示出條目內容的詮釋資料。輸出內容為可整合在條目的訊息框，並以參數「mode」來顯示出不同種類訊息。",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>：指定要被計算在<code>chars</code>（字元）、<code>words</code>（字詞），或是<code>pages</code>（頁面）的項目。",
+	"bs-countthings-tag-countcharacters-example-1": "字詞數",
+	"bs-countthings-tag-countcharacters-example-2": "字元數"
 }
