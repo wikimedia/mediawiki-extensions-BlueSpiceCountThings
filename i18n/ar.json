@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Sonic N800"
 		]
 	},
+	"bs-countthings-error-not-exist": "الصفحة \"$1\" غير موجودة.",
 	"bs-countthings-tag-countcharacters-example-1": "عدد الكلمات"
 }
