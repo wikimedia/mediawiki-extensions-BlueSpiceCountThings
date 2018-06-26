@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-count-things",
+	"name": "bluespice/countthings",
 	"type": "mediawiki-extension",
 	"description": "Provides content based statistics",
 	"license": "GPL-3.0-only",
@@ -19,5 +19,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceCountThings"
 	}
 }
