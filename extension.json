@@ -5,7 +5,8 @@
 	"url": "https://help.bluespice.com/index.php/CountThings",
 	"author": [
 		"Markus Glaser",
-		"Mathias Scheer"
+		"Mathias Scheer",
+		"Peter Boehm"
 	],
 	"descriptionmsg": "bs-countthings-desc",
 	"type": "bluespice",
@@ -15,14 +16,24 @@
 			"BlueSpiceFoundation": ">= 3.0.0"
 		}
 	},
-	"bsgExtensions": {
-		"BlueSpiceCountThings": {
-			"className": "CountThings",
-			"extPath": "/BlueSpiceCountThings"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCountThings": {
+					"className": "CountThings",
+					"extPath": "/BlueSpiceCountThings"
+				}
+			},
+			"TagRegistry": {
+				"countfiles": "BlueSpice\\CountThings\\Tag\\CountFiles",
+				"countarticles": "BlueSpice\\CountThings\\Tag\\CountArticles",
+				"countusers": "BlueSpice\\CountThings\\Tag\\CountUsers",
+				"countcharacters": "BlueSpice\\CountThings\\Tag\\CountCharacters"
+			},
+			"RendererRegistry": {
+				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters"
+			}
 		}
-	},
-	"BlueSpiceFoundationTagRegistry": {
-		"bs-countfiles": "BlueSpice\\CountThings\\Tag\\CountFiles"
 	},
 	"MessagesDirs": {
 		"BlueSpiceCountThings": [
@@ -36,6 +47,13 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\CountThings\\": "src/"
 	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountCharacters::callback"
+		]
+	},
 	"load_composer_autoloader" : true,
-	"manifest_version": 1
+	"manifest_version": 2
 }
