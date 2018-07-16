@@ -41,8 +41,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"CountThings": "CountThings.class.php",
-		"ViewCountCharacters": "views/view.CountCharacters.php"
+		"CountThings": "CountThings.class.php"
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\CountThings\\": "src/"
