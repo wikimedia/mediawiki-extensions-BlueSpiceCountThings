@@ -11,6 +11,7 @@ class CountUsersHandler extends Handler {
 	}
 
 	public function handle() {
-		return \CoreParserFunctions::numberofusers( $this->parser );
+		$count = \CoreParserFunctions::numberofusers( $this->parser );
+		return " $count ";
 	}
 }

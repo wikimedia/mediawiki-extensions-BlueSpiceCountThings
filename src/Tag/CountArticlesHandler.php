@@ -11,6 +11,7 @@ class CountArticlesHandler extends Handler {
 	}
 
 	public function handle() {
-		return \CoreParserFunctions::numberofarticles( $this->parser );
+		$count = \CoreParserFunctions::numberofarticles( $this->parser );
+		return " $count ";
 	}
 }

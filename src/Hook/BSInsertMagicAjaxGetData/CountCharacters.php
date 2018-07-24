@@ -19,6 +19,7 @@ class CountCharacters extends BSInsertMagicAjaxGetData {
 		$descriptor->desc = wfMessage( 'bs-countthings-tag-countcharacters-desc' )->escaped();
 		$descriptor->code = '<bs:countcharacters>ARTICLENAME</bs:countcharacters>';
 		$descriptor->previewable = false;
+		$descriptor->mwvecommand = 'countCharactersCommand';
 		$descriptor->examples = array (
 			array (
 				'label' => wfMessage( 'bs-countthings-tag-countcharacters-example-1' )->escaped(),

@@ -19,6 +19,7 @@ class CountUsers extends BSInsertMagicAjaxGetData {
 		$descriptor->desc = wfMessage( 'bs-countthings-tag-countusers-desc' )->escaped();
 		$descriptor->code = '<bs:countusers />';
 		$descriptor->previewable = false;
+		$descriptor->mwvecommand = 'countUsersCommand';
 		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;

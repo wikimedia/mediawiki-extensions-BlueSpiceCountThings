@@ -35,6 +35,6 @@ class CountFilesHandler extends Handler {
 			$distinct = 'DISTINCT';
 		}
 		$number = $this->dbr->selectField( 'image', "COUNT( $distinct img_sha1 )" );
-		return $number;
+		return " $number ";
 	}
 }

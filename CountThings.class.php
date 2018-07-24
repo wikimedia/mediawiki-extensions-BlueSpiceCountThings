@@ -63,6 +63,12 @@ class CountThings extends BsExtensionMW {
 				'identifier' => 'bs-tag-bs:countusers'
 			)
 		);
+		$aCollectorsConfig['bs:countfiles'] = array(
+			'class' => 'Property',
+			'config' => array(
+				'identifier' => 'bs-tag-bs:countfiles'
+			)
+		);
 		$aCollectorsConfig['bs:countcharacters'] = array(
 			'class' => 'Property',
 			'config' => array(

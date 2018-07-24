@@ -4,7 +4,7 @@ namespace BlueSpice\CountThings\Hook\BSInsertMagicAjaxGetData;
 
 use BlueSpice\InsertMagic\Hook\BSInsertMagicAjaxGetData;
 
-class CountArticles extends BSInsertMagicAjaxGetData {
+class CountFiles extends BSInsertMagicAjaxGetData {
 
 	protected function skipProcessing() {
 		return $this->type !== 'tags';
@@ -13,13 +13,13 @@ class CountArticles extends BSInsertMagicAjaxGetData {
 	protected function doProcess() {
 
 		$descriptor = new \stdClass();
-		$descriptor->id = 'bs:countarticles';
+		$descriptor->id = 'bs:countfiles';
 		$descriptor->type = 'tag';
-		$descriptor->name = 'countarticles';
-		$descriptor->desc = wfMessage( 'bs-countthings-tag-countarticles-desc' )->escaped();
-		$descriptor->code = '<bs:countarticles />';
+		$descriptor->name = 'countfiles';
+		$descriptor->desc = wfMessage( 'bs-countthings-tag-countfiles-desc' )->escaped();
+		$descriptor->code = '<bs:countfiles />';
 		$descriptor->previewable = false;
-		$descriptor->mwvecommand = 'countArticlesCommand';
+		$descriptor->mwvecommand = 'countFilesCommand';
 		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;

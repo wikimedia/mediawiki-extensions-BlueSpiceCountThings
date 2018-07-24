@@ -14,7 +14,7 @@ class CountCharactersHandler extends Handler {
 	protected $tagArgs = [ 'mode' ];
 
 	public function __construct( $processedInput, array $processedArgs, \Parser $parser, \PPFrame $frame ) {
-		$this->tagInput = explode( ' ', $processedInput );
+		$this->tagInput = explode( ' ', trim($processedInput) );
 		$this->tagArgs = $processedArgs;
 		parent::__construct( $processedInput, $processedArgs, $parser, $frame );
 	}

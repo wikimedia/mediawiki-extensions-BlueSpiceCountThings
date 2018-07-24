@@ -33,6 +33,89 @@
 			"RendererRegistry": {
 				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters"
 			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.bluespice.countthings.countcharacters.visualEditor",
+				"ext.bluespice.countthings.countusers.visualEditor",
+				"ext.bluespice.countthings.countarticles.visualEditor",
+				"ext.bluespice.countthings.countfiles.visualEditor"
+			]
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.countthings.countcharacters.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.CountCharactersNode.js",
+				"ve/ve.dm.CountCharactersNode.js",
+				"ve/ve.ui.CountCharactersInspector.js",
+				"ve/ve.ui.CountCharactersInspectorTool.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"bs-countthings-ve-countthingsinspector-mode",
+				"bs-countthings-ve-countcharacters-title"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.countthings.countusers.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.CountUsersNode.js",
+				"ve/ve.dm.CountUsersNode.js",
+				"ve/ve.ui.CountUsersInspector.js",
+				"ve/ve.ui.CountUsersInspectorTool.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"bs-countthings-ve-countusers-title"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.countthings.countarticles.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.CountArticlesNode.js",
+				"ve/ve.dm.CountArticlesNode.js",
+				"ve/ve.ui.CountArticlesInspector.js",
+				"ve/ve.ui.CountArticlesInspectorTool.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"bs-countthings-ve-countarticles-title"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.countthings.countfiles.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.CountFilesNode.js",
+				"ve/ve.dm.CountFilesNode.js",
+				"ve/ve.ui.CountFilesInspector.js",
+				"ve/ve.ui.CountFilesInspectorTool.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"bs-countthings-ve-countfiles-title"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
 		}
 	},
 	"MessagesDirs": {
@@ -46,10 +129,15 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\CountThings\\": "src/"
 	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCountThings/resources"
+	},
 	"Hooks": {
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountFiles::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountCharacters::callback"
 		]
 	},
