@@ -15,6 +15,7 @@
 	"bs-countthings-error-not-exist": "Strona „$1” nie istnieje.",
 	"bs-countthings-tag-countarticles-desc": "Wyświetla liczbę artykułów w wiki.",
 	"bs-countthings-tag-countusers-desc": "Pokazuje liczbę zarejestrowanych użytkowników.",
+	"bs-countthings-tag-countfiles-desc": "Wyświetla liczbę plików w wiki.",
 	"bs-countthings-tag-countcharacters-example-1": "Liczba wyrazów",
 	"bs-countthings-tag-countcharacters-example-2": "Liczba znaków"
 }
