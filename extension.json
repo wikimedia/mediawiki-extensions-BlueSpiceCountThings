@@ -57,7 +57,13 @@
 			],
 			"messages": [
 				"bs-countthings-ve-countthingsinspector-mode",
-				"bs-countthings-ve-countcharacters-title"
+				"bs-countthings-ve-countcharacters-title",
+				"bs-countthings-ve-countcharacters-input-label",
+				"bs-countthings-ve-countcharacters-mode-all",
+				"bs-countthings-ve-countcharacters-mode-charsonly",
+				"bs-countthings-ve-countcharacters-mode-wordsonly",
+				"bs-countthings-ve-countcharacters-mode-wordsandchars",
+				"bs-countthings-ve-countcharacters-mode-pagesonly"
 			],
 			"dependencies": [
 				"ext.visualEditor.mwcore"

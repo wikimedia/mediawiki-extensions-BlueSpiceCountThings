@@ -21,6 +21,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "Wörter",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "Zeichen und Wörter",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "Seiten",
+	"bs-countthings-ve-countcharacters-input-label": "Seiten",
 	"bs-countthings-error-no-input": "Es wurden keine Seite angegeben.",
 	"bs-countthings-error-invalid-mode": "Der Konfigurationsparameter \"$1\" ist nicht zulässig. Bitte verwende \"chars\", \"words\", oder \"pages\".",
 	"bs-countthings-error-not-exist": "Der Seite \"$1\" existiert nicht.",

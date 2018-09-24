@@ -19,6 +19,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly" :"words",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars" :"characters and words",
 	"bs-countthings-ve-countcharacters-mode-pagesonly" :"pages",
+	"bs-countthings-ve-countcharacters-input-label": "Pages",
 	"bs-countthings-error-no-input": "No page provided.",
 	"bs-countthings-error-invalid-mode": "The mode \"$1\" is invalid. Please use \"chars\", \"words\", or \"pages\".",
 	"bs-countthings-error-not-exist": "The page \"$1\" does not exist.",

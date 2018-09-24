@@ -33,6 +33,7 @@ ve.ui.CountCharactersInspector.prototype.initialize = function () {
 		expanded: false,
 		padded: true
 	} );
+	this.input.setLabel( mw.message( 'bs-countthings-ve-countcharacters-input-label' ).plain() );
 
 	this.createFields();
 	this.setLayouts();
@@ -69,7 +70,7 @@ ve.ui.CountCharactersInspector.prototype.createFields = function () {
 			},
 			{
 				data: 'pages',
-				label: mw.message( 'bs-ccountthings-ve-ountcharacters-mode-pagesonly' ).plain()
+				label: mw.message( 'bs-countthings-ve-countcharacters-mode-pagesonly' ).plain()
 			}
 		]
 	} );

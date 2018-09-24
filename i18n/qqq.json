@@ -23,6 +23,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "Description of mode for CountCharacters to display only words",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "Description of mode for CountCharacters to display characters and words",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "Description of mode for CountCharacters to display only pages\n{{Identical|Page}}",
+	"bs-countthings-ve-countcharacters-input-label": "Label for input field to List of Pages",
 	"bs-countthings-error-no-input": "Error message that no page was provided.",
 	"bs-countthings-error-invalid-mode": "{{doc-important|Do not translate <code>chars</code>, <code>words</code> and <code>pages</code>}}\nError message that the given mode is invalid. Valid modes are <code>chars</code>, <code>words</code>, or <code>pages</code>.\n*$1 is the given mode which is invalid.",
 	"bs-countthings-error-not-exist": "Error message that the given page does not exist.\n*$1 is the page which does not exist.",
