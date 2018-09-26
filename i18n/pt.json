@@ -20,6 +20,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "palavras",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caracteres e palavras",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "páginas",
+	"bs-countthings-ve-countcharacters-input-label": "Páginas",
 	"bs-countthings-error-no-input": "Não foi fornecida nenhuma página.",
 	"bs-countthings-error-invalid-mode": "O modo \"$1\" é inválido. Por favor, utilize \"caracteres\", \"palavras\" ou \"páginas\".",
 	"bs-countthings-error-not-exist": "A página \"$1\" não existe.",

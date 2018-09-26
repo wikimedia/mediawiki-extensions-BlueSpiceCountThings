@@ -19,6 +19,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "Λέξεις",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "χαρακτήρες και λέξεις",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "σελίδες",
+	"bs-countthings-ve-countcharacters-input-label": "Σελίδες",
 	"bs-countthings-error-no-input": "Δεν παρασχέθηκε σελίδα.",
 	"bs-countthings-error-not-exist": "Η σελίδα \"$1\" δεν υπάρχει.",
 	"bs-countthings-tag-countarticles-desc": "Εμφανίζει τον αριθμό των λημμάτων στο βίκι.",

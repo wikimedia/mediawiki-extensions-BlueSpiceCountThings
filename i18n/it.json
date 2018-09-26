@@ -15,6 +15,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "parole",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caratteri e parole",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagine",
+	"bs-countthings-ve-countcharacters-input-label": "Pagine",
 	"bs-countthings-error-no-input": "Nessuna pagina fornita.",
 	"bs-countthings-error-invalid-mode": "La modalità \"$1\" non è valida. Utilizzare \"chars\", \"words\", o \"pages\".",
 	"bs-countthings-error-not-exist": "La pagina \"$1\" non esiste.",

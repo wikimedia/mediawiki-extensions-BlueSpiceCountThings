@@ -21,6 +21,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "單字",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "字元和單字",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "頁面",
+	"bs-countthings-ve-countcharacters-input-label": "頁面",
 	"bs-countthings-error-no-input": "未提供頁面。",
 	"bs-countthings-error-invalid-mode": "模式「$1」無效，請使用「chars」、「words」，或是「pages」。",
 	"bs-countthings-error-not-exist": "頁面 \"$1\" 不存在。",

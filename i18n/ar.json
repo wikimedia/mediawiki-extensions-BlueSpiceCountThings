@@ -3,7 +3,8 @@
 		"authors": [
 			"محمد أحمد عبد الفتاح",
 			"Sonic N800",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"bs-countthings-desc": "يوفر إحصائيات تستند إلى المحتوى",
@@ -21,6 +22,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "الكلمات",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "الأحرف والكلمات",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "الصفحات",
+	"bs-countthings-ve-countcharacters-input-label": "الصفحات",
 	"bs-countthings-error-no-input": "لم يتم تقديم صفحة.",
 	"bs-countthings-error-invalid-mode": "الوضع  \"$1\" غير صالح; الرجاء استخدام \"chars\" أو \"words\" أو \"pages\".",
 	"bs-countthings-error-not-exist": "الصفحة \"$1\" غير موجودة.",

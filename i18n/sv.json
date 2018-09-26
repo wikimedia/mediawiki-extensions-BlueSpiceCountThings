@@ -20,6 +20,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "ord",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "tecken och ord",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "sidor",
+	"bs-countthings-ve-countcharacters-input-label": "Sidor",
 	"bs-countthings-error-no-input": "Ingen sida angavs.",
 	"bs-countthings-error-invalid-mode": "Läget \"$1\" är ogiltigt. Vänligen använd \"chars\", \"words\", eller \"pages\".",
 	"bs-countthings-error-not-exist": "Sidan \"$1\" finns inte.",

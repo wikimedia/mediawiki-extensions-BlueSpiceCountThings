@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Yfdyh000",
-			"夢蝶葬花"
+			"夢蝶葬花",
+			"Phenolla"
 		]
 	},
 	"bs-countthings-desc": "提供基于统计信息的内容",
@@ -17,6 +18,7 @@
 	"bs-countthings-ve-countcharacters-mode-charsonly": "字符",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "字数",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "页面",
+	"bs-countthings-ve-countcharacters-input-label": "页面",
 	"bs-countthings-error-no-input": "没有提供页面。",
 	"bs-countthings-error-invalid-mode": "模式“$1”无效。请使用\"chars\"、\"words\"或\"pages\"。",
 	"bs-countthings-error-not-exist": "页面“$1”不存在。",

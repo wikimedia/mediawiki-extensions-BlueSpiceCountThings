@@ -15,5 +15,6 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "речи",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "знакови и речи",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "странице",
+	"bs-countthings-ve-countcharacters-input-label": "Странице",
 	"bs-countthings-tag-countfiles-desc": "Приказује број датотека на викију."
 }
