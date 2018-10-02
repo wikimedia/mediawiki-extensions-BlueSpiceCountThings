@@ -34,93 +34,37 @@
 				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters"
 			}
 		},
-		"VisualEditor": {
-			"PluginModules": [
-				"ext.bluespice.countthings.countcharacters.visualEditor",
-				"ext.bluespice.countthings.countusers.visualEditor",
-				"ext.bluespice.countthings.countarticles.visualEditor",
-				"ext.bluespice.countthings.countfiles.visualEditor"
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.countthings.visualEditorTagDefinition"
 			]
 		}
 	},
 	"ResourceModules": {
-		"ext.bluespice.countthings.countcharacters.visualEditor": {
+		"ext.bluespice.countthings.visualEditorTagDefinition": {
 			"scripts": [
-				"ve/ve.ce.CountCharactersNode.js",
-				"ve/ve.dm.CountCharactersNode.js",
-				"ve/ve.ui.CountCharactersInspector.js",
-				"ve/ve.ui.CountCharactersInspectorTool.js"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
+				"bs.cntthngs/util/tag/CountArticlesDefinition.js",
+				"bs.cntthngs/util/tag/CountCharactersDefinition.js",
+				"bs.cntthngs/util/tag/CountFilesDefinition.js",
+				"bs.cntthngs/util/tag/CountUsersDefinition.js"
 			],
 			"messages": [
+				"bs-countthings-tag-countcharacters-desc",
 				"bs-countthings-ve-countthingsinspector-mode",
 				"bs-countthings-ve-countcharacters-title",
 				"bs-countthings-ve-countcharacters-input-label",
+				"bs-countthings-tag-countcharacters-desc-param-mode",
 				"bs-countthings-ve-countcharacters-mode-all",
 				"bs-countthings-ve-countcharacters-mode-charsonly",
 				"bs-countthings-ve-countcharacters-mode-wordsonly",
 				"bs-countthings-ve-countcharacters-mode-wordsandchars",
-				"bs-countthings-ve-countcharacters-mode-pagesonly"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore"
-			]
-		},
-		"ext.bluespice.countthings.countusers.visualEditor": {
-			"scripts": [
-				"ve/ve.ce.CountUsersNode.js",
-				"ve/ve.dm.CountUsersNode.js",
-				"ve/ve.ui.CountUsersInspector.js",
-				"ve/ve.ui.CountUsersInspectorTool.js"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
-			],
-			"messages": [
-				"bs-countthings-ve-countusers-title"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore"
-			]
-		},
-		"ext.bluespice.countthings.countarticles.visualEditor": {
-			"scripts": [
-				"ve/ve.ce.CountArticlesNode.js",
-				"ve/ve.dm.CountArticlesNode.js",
-				"ve/ve.ui.CountArticlesInspector.js",
-				"ve/ve.ui.CountArticlesInspectorTool.js"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
-			],
-			"messages": [
-				"bs-countthings-ve-countarticles-title"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore"
-			]
-		},
-		"ext.bluespice.countthings.countfiles.visualEditor": {
-			"scripts": [
-				"ve/ve.ce.CountFilesNode.js",
-				"ve/ve.dm.CountFilesNode.js",
-				"ve/ve.ui.CountFilesInspector.js",
-				"ve/ve.ui.CountFilesInspectorTool.js"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
-			],
-			"messages": [
-				"bs-countthings-ve-countfiles-title"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore"
+				"bs-countthings-ve-countcharacters-mode-pagesonly",
+				"bs-countthings-ve-countarticles-title",
+				"bs-countthings-tag-countarticles-desc",
+				"bs-countthings-ve-countfiles-title",
+				"bs-countthings-tag-countfiles-desc",
+				"bs-countthings-ve-countusers-title",
+				"bs-countthings-tag-countusers-desc"
 			]
 		}
 	},
