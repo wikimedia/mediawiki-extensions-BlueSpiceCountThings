@@ -19,6 +19,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "Wierder",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "Zeechen a Wierder",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "Säiten",
+	"bs-countthings-ve-countcharacters-input-label": "Säiten",
 	"bs-countthings-error-no-input": "Keng Säit uginn.",
 	"bs-countthings-error-not-exist": "D'Säit ''$1'' gëtt et net.",
 	"bs-countthings-tag-countarticles-desc": "Weist d'Zuel vun de Säiten an der Wiki.",
