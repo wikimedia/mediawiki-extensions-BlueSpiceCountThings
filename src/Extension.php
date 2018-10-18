@@ -1,5 +1,7 @@
 <?php
 
+namespace BlueSpice\CountThings;
+
 /**
  * BlueSpice MediaWiki
  * Extension: CountThings
@@ -39,18 +41,14 @@
  * <bs:countcharacters>Test Test_Site</bs:countcharacters> shows counts for this two sites
  * absolute number of users: <bs:countusers />
  */
-class CountThings extends BsExtensionMW {
-
-    protected function initExt() {
-		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
-	}
+class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * Register tag with UsageTracker extension
 	 * @param array $aCollectorsConfig
 	 * @return Always true to keep hook running
 	 */
-	public function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
+	public static function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
 		$aCollectorsConfig['bs:countarticles'] = array(
 			'class' => 'Property',
 			'config' => array(
