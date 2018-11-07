@@ -18,5 +18,8 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "parole",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "carattere e parole",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "pàggene",
-	"bs-countthings-error-no-input": "Nisicuna pàgene date."
+	"bs-countthings-ve-countcharacters-input-label": "Pàggene",
+	"bs-countthings-error-no-input": "Nisicuna pàgene date.",
+	"bs-countthings-error-invalid-mode": "'A modalità \"$1\" non g'è valide. Ausà \"chars\", \"words\", o \"pages\".",
+	"bs-countthings-error-not-exist": "'A pàgene \"$1\" non g'esiste."
 }
