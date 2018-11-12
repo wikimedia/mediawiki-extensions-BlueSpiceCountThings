@@ -39,7 +39,7 @@ bs.cntthngs.util.tag.CountCharactersDefinition.prototype.getCfg = function() {
 				},
 				{
 					data: 'pages',
-					label: mw.message( 'bs-ccountthings-ve-countcharacters-mode-pagesonly' ).plain()
+					label: mw.message( 'bs-countthings-ve-countcharacters-mode-pagesonly' ).plain()
 				}
 			]
 		}]
