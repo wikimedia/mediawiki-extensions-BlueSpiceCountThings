@@ -4,6 +4,7 @@
 			"Joetaras"
 		]
 	},
+	"bs-countthings-desc": "Dèje condenute in base a statisteche",
 	"bs-countthings-chars-label": "Carattere",
 	"bs-countthings-words-label": "Parole",
 	"bs-countthings-files-label": "File",
@@ -21,5 +22,6 @@
 	"bs-countthings-ve-countcharacters-input-label": "Pàggene",
 	"bs-countthings-error-no-input": "Nisicuna pàgene date.",
 	"bs-countthings-error-invalid-mode": "'A modalità \"$1\" non g'è valide. Ausà \"chars\", \"words\", o \"pages\".",
-	"bs-countthings-error-not-exist": "'A pàgene \"$1\" non g'esiste."
+	"bs-countthings-error-not-exist": "'A pàgene \"$1\" non g'esiste.",
+	"bs-countthings-tag-countarticles-desc": "Face 'ndrucà 'u numere de vôsce jndr'à uicchi."
 }
