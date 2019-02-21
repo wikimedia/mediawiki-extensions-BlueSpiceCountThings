@@ -1,13 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alirezaaa"
+			"Alirezaaa",
+			"Amirsara"
 		]
 	},
 	"bs-countthings-desc": "محتوا بر اساس آمار فراهم می‌کند",
 	"bs-countthings-chars-label": "کاراکترها",
 	"bs-countthings-words-label": "واژه‌ها",
+	"bs-countthings-files-label": "پرونده‌ها",
 	"bs-countthings-pages-label": "صفحات",
+	"bs-countthings-ve-countcharacters-mode-all": "همه",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "صفحات",
+	"bs-countthings-ve-countcharacters-input-label": "صفحات",
 	"bs-countthings-error-no-input": "هیچ صفحه‌ای ارائه نشده است.",
 	"bs-countthings-error-invalid-mode": "حالت «$1» نامعتبر است. لطفاً از «chars»، «words»، یا «pages» استفاده کنید.",
 	"bs-countthings-error-not-exist": "صفحهٔ «$1» وجود ندارد.",
