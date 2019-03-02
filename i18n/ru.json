@@ -4,7 +4,8 @@
 			"Okras",
 			"Alexandr Efremov",
 			"Facenapalm",
-			"Vlad5250"
+			"Vlad5250",
+			"Romanko Mikhail"
 		]
 	},
 	"bs-countthings-desc": "Предоставляет статистику на основании анализа содержания",
@@ -18,6 +19,7 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "слова",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "символы и слова",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "страницы",
+	"bs-countthings-ve-countcharacters-input-label": "Страницы",
 	"bs-countthings-error-no-input": "Страница не указан",
 	"bs-countthings-error-invalid-mode": "Режим \"$1\" не применяется. Пожалуйста, используйте \"chars\", \"words\" или \"pages\".",
 	"bs-countthings-error-not-exist": "Страница «$1» не существует.",
