@@ -11,7 +11,6 @@ class CountUsers extends BSInsertMagicAjaxGetData {
 	}
 
 	protected function doProcess() {
-
 		$descriptor = new \stdClass();
 		$descriptor->id = 'bs:countusers';
 		$descriptor->type = 'tag';
