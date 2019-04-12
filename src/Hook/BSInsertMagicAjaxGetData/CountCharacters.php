@@ -11,7 +11,6 @@ class CountCharacters extends BSInsertMagicAjaxGetData {
 	}
 
 	protected function doProcess() {
-
 		$descriptor = new \stdClass();
 		$descriptor->id = 'bs:countcharacters';
 		$descriptor->type = 'tag';
@@ -20,16 +19,16 @@ class CountCharacters extends BSInsertMagicAjaxGetData {
 		$descriptor->code = '<bs:countcharacters>ARTICLENAME</bs:countcharacters>';
 		$descriptor->previewable = false;
 		$descriptor->mwvecommand = 'countCharactersCommand';
-		$descriptor->examples = array (
-			array (
+		$descriptor->examples = [
+			[
 				'label' => wfMessage( 'bs-countthings-tag-countcharacters-example-1' )->escaped(),
 				'code' => '<bs:countcharacters mode="words">ARTICLENAME</bs:countcharacters>'
-			),
-			array (
+			],
+			[
 				'label' => wfMessage( 'bs-countthings-tag-countcharacters-example-2' )->escaped(),
 				'code' => '<bs:countcharacters mode="chars">ARTICLENAME</bs:countcharacters>'
-			),
-		);
+			],
+		];
 		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;

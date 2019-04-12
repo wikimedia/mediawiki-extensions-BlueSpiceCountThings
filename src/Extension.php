@@ -30,7 +30,7 @@ namespace BlueSpice\CountThings;
  * @package    BlueSpice_Extensions
  * @subpackage CountThings
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
 
 /**
@@ -45,33 +45,33 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * Register tag with UsageTracker extension
-	 * @param array $aCollectorsConfig
+	 * @param array &$aCollectorsConfig
 	 * @return Always true to keep hook running
 	 */
 	public static function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:countarticles'] = array(
+		$aCollectorsConfig['bs:countarticles'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-bs:countarticles'
-			)
-		);
-		$aCollectorsConfig['bs:countusers'] = array(
+			]
+		];
+		$aCollectorsConfig['bs:countusers'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-bs:countusers'
-			)
-		);
-		$aCollectorsConfig['bs:countfiles'] = array(
+			]
+		];
+		$aCollectorsConfig['bs:countfiles'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-bs:countfiles'
-			)
-		);
-		$aCollectorsConfig['bs:countcharacters'] = array(
+			]
+		];
+		$aCollectorsConfig['bs:countcharacters'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-bs:countcharacters'
-			)
-		);
+			]
+		];
 	}
 }
