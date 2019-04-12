@@ -9,7 +9,6 @@ class CountArticles extends \BlueSpice\Tag\Tag {
 	}
 
 	public function getHandler( $processedInput, array $processedArgs, \Parser $parser, \PPFrame $frame ) {
-
 		return new CountArticlesHandler(
 			$processedInput,
 			$processedArgs,

@@ -3,7 +3,6 @@
 namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\Tag\Handler;
-use BlueSpice\Tag\Output;
 
 class CountFilesHandler extends Handler {
 
@@ -22,7 +21,7 @@ class CountFilesHandler extends Handler {
 	/**
 	 *
 	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
-	 * @param boolean $noduplicates
+	 * @param bool $noduplicates
 	 */
 	public function __construct( $loadBalancer, $noduplicates ) {
 		$this->dbr = $loadBalancer->getConnection( DB_REPLICA );
@@ -31,7 +30,7 @@ class CountFilesHandler extends Handler {
 
 	public function handle() {
 		$distinct = '';
-		if( $this->noduplicates ) {
+		if ( $this->noduplicates ) {
 			$distinct = 'DISTINCT';
 		}
 		$number = $this->dbr->selectField( 'image', "COUNT( $distinct img_sha1 )" );
