@@ -14,6 +14,8 @@
 	"bs-countthings-words-label": "Woorden",
 	"bs-countthings-files-label": "Bestanden",
 	"bs-countthings-pages-label": "Pagina's",
+	"bs-countthings-ve-countthingsinspector-mode": "Modus",
+	"bs-countthings-ve-countcharacters-mode-all": "alle",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "tekens",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "woorden",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagina's",
