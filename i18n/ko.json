@@ -3,7 +3,8 @@
 		"authors": [
 			"Hwangjy9",
 			"Ykhwong",
-			"Comjun04"
+			"Comjun04",
+			"Maoue"
 		]
 	},
 	"bs-countthings-desc": "콘텐츠에 기반한 통계를 제공합니다",
@@ -23,5 +24,6 @@
 	"bs-countthings-error-not-exist": "\"$1\" 문서가 존재하지 않습니다.",
 	"bs-countthings-tag-countarticles-desc": "이 위키의 문서 수를 표시합니다.",
 	"bs-countthings-tag-countusers-desc": "등록된 사용자 수를 표시합니다.",
-	"bs-countthings-tag-countfiles-desc": "위키의 파일 수를 표시합니다."
+	"bs-countthings-tag-countfiles-desc": "위키의 파일 수를 표시합니다.",
+	"bs-countthings-tag-countcharacters-example-1": "단어의 수"
 }
