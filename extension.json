@@ -31,7 +31,7 @@
 				"countcharacters": "BlueSpice\\CountThings\\Tag\\CountCharacters"
 			},
 			"RendererRegistry": {
-				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters"
+				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters::factory"
 			}
 		},
 		"BlueSpiceVisualEditorConnector": {
