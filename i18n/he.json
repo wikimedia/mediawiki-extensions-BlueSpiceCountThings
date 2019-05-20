@@ -2,13 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"LaG roiL"
+			"LaG roiL",
+			"Erelon"
 		]
 	},
 	"bs-countthings-desc": "אספקת סטטיסטיקות המבוססות על תוכן",
 	"bs-countthings-chars-label": "תווים",
 	"bs-countthings-words-label": "מילים",
+	"bs-countthings-files-label": "קבצים",
 	"bs-countthings-pages-label": "דפים",
+	"bs-countthings-ve-countthingsinspector-mode": "מצב",
+	"bs-countthings-ve-countcharacters-mode-all": "הכול",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "מילים",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "מילים ואותיות",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "דפים",
 	"bs-countthings-error-no-input": "לא צוין דף.",
 	"bs-countthings-error-invalid-mode": "המצב \"$1\" אינו תקין. יש להשתמש באחד המצבים \"chars\",&rlm; \"words\" או \"pages\".",
 	"bs-countthings-error-not-exist": "הדף \"$1\" אינו קיים.",
