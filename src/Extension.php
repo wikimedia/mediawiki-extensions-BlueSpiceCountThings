@@ -32,6 +32,7 @@ namespace BlueSpice\CountThings;
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
  * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
+ */
 
 /**
  * CountThings adds 3 tags, used in WikiMarkup as follows:
