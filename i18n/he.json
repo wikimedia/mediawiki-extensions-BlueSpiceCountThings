@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"LaG roiL"
+			"LaG roiL",
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"bs-countthings-desc": "אספקת סטטיסטיקות המבוססות על תוכן",
@@ -17,5 +19,14 @@
 	"bs-countthings-tag-countcharacters-desc": "יצירת מטא־נתונים עם התוכן של ערך מסוים. הפלט הוא תיבת מידע שניתן לשלבהּ בערך. אפשר להציג סוגים שונים של מידע באמצעות הפרמטר \"mode\".",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: מה צריך לספור – <code>chars</code> (תווים), <code>words</code> (מילים) או <code>pages</code> (דפים).",
 	"bs-countthings-tag-countcharacters-example-1": "מספר המילים",
-	"bs-countthings-tag-countcharacters-example-2": "מספר התווים"
+	"bs-countthings-tag-countcharacters-example-2": "מספר התווים",
+	"bs-countthings-files-label": "קבצים",
+	"bs-countthings-ve-countthingsinspector-mode": "מצב",
+	"bs-countthings-ve-countcharacters-mode-all": "הכול",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "תווים",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "מילים",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "מילים ואותיות",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "דפים",
+	"bs-countthings-ve-countcharacters-input-label": "דפים",
+	"bs-countthings-tag-countfiles-desc": "מציג את מספר הקבצים באתר."
 }

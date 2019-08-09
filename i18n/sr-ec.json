@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"bs-countthings-files-label": "Датотеке",
@@ -16,5 +17,15 @@
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "знакови и речи",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "странице",
 	"bs-countthings-ve-countcharacters-input-label": "Странице",
-	"bs-countthings-tag-countfiles-desc": "Приказује број датотека на викију."
+	"bs-countthings-tag-countfiles-desc": "Приказује број датотека на викију.",
+	"bs-countthings-chars-label": "Знакови",
+	"bs-countthings-words-label": "Речи",
+	"bs-countthings-pages-label": "Странице",
+	"bs-countthings-error-no-input": "Није наведена страница.",
+	"bs-countthings-error-invalid-mode": "Режим „$1” није важећи. Користите „chars”, „words” или „pages”.",
+	"bs-countthings-error-not-exist": "Страница „$1” не постоји.",
+	"bs-countthings-tag-countarticles-desc": "Приказује број чланака на викију.",
+	"bs-countthings-tag-countusers-desc": "Приказује број регистрованих корисника.",
+	"bs-countthings-tag-countcharacters-example-1": "Број речи",
+	"bs-countthings-tag-countcharacters-example-2": "Број знакова"
 }
