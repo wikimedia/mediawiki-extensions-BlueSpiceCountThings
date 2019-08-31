@@ -1,13 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
 	"bs-countthings-desc": "Proporciona estatísticas baseadas no contido",
 	"bs-countthings-chars-label": "Caracteres",
 	"bs-countthings-words-label": "Palabras",
+	"bs-countthings-files-label": "Ficheiros",
 	"bs-countthings-pages-label": "Páxinas",
+	"bs-countthings-ve-countthingsinspector-mode": "Modo",
+	"bs-countthings-ve-countcharacters-mode-all": "todos",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "caracteres",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "palabras",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "páxinas",
+	"bs-countthings-ve-countcharacters-input-label": "Páxinas",
 	"bs-countthings-error-no-input": "Non se proporcionou unha páxina.",
 	"bs-countthings-error-invalid-mode": "O modo \"$1\" é inválido. Por favor, utilice \"caracteres\", \"palabras\" ou \"páxinas\".",
 	"bs-countthings-error-not-exist": "A páxina \"$1\" non existe.",
