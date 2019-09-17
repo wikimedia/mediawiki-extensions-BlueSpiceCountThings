@@ -76,7 +76,7 @@ class CountCharactersHandler extends Handler {
 				];
 			}
 
-			$lr = \MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer();
+			$lr = Services::getInstance()->getLinkRenderer();
 
 			$params = new Params( [
 				'title' => $title,
