@@ -2,6 +2,7 @@
 
 namespace BlueSpice\CountThings\Tag;
 
+use BlueSpice\Services;
 use BlueSpice\Tag\Tag;
 use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
@@ -12,7 +13,7 @@ class CountFiles extends Tag {
 	const ATTR_NODUPLICATES = 'noduplicates';
 
 	public function getHandler( $processedInput, array $processedArgs, \Parser $parser, \PPFrame $frame ) {
-		$loadBalancer = \MediaWiki\MediaWikiServices::getInstance()->getDBLoadBalancer();
+		$loadBalancer = Services::getInstance()->getDBLoadBalancer();
 		return new CountFilesHandler(
 			$loadBalancer,
 			$processedArgs[ static::ATTR_NODUPLICATES ]
