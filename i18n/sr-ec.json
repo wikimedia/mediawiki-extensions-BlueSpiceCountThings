@@ -27,5 +27,6 @@
 	"bs-countthings-tag-countarticles-desc": "Приказује број чланака на викију.",
 	"bs-countthings-tag-countusers-desc": "Приказује број регистрованих корисника.",
 	"bs-countthings-tag-countcharacters-example-1": "Број речи",
-	"bs-countthings-tag-countcharacters-example-2": "Број знакова"
+	"bs-countthings-tag-countcharacters-example-2": "Број знакова",
+	"bs-countthings-desc": "Пружа статистику засновану на садржају"
 }
