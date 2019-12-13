@@ -11,7 +11,16 @@ class CountFiles extends Tag {
 
 	const ATTR_NODUPLICATES = 'noduplicates';
 
-	public function getHandler( $processedInput, array $processedArgs, \Parser $parser, \PPFrame $frame ) {
+	/**
+	 *
+	 * @param string $processedInput
+	 * @param array $processedArgs
+	 * @param \Parser $parser
+	 * @param \PPFrame $frame
+	 * @return \BlueSpice\CountThings\Tag\CountFilesHandler
+	 */
+	public function getHandler( $processedInput, array $processedArgs, \Parser $parser,
+		\PPFrame $frame ) {
 		$loadBalancer = \MediaWiki\MediaWikiServices::getInstance()->getDBLoadBalancer();
 		return new CountFilesHandler(
 			$loadBalancer,
@@ -19,18 +28,34 @@ class CountFiles extends Tag {
 		);
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getTagNames() {
 		return [ 'bs:countfiles', 'countfiles' ];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getContainerElementName() {
 		return GenericHandler::TAG_SPAN;
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	public function disableParserCache() {
 		return true;
 	}
 
+	/**
+	 *
+	 * @return ParamDefinition[]
+	 */
 	public function getArgsDefinitions() {
 		return [
 			new ParamDefinition(

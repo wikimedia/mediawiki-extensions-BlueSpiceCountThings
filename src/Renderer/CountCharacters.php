@@ -39,6 +39,10 @@ class CountCharacters extends TemplateRenderer {
 		$this->args[static::TITLELINK] = $params->get( static::TITLELINK, '' );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getTemplateName() {
 		return 'BlueSpiceCountThings.CountCharacters';
 	}
