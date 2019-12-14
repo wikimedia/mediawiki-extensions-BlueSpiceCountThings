@@ -13,12 +13,24 @@ class CountCharactersHandler extends Handler {
 	protected $tagInput = '';
 	protected $tagArgs = [ 'mode' ];
 
-	public function __construct( $processedInput, array $processedArgs, \Parser $parser, \PPFrame $frame ) {
+	/**
+	 *
+	 * @param string $processedInput
+	 * @param array $processedArgs
+	 * @param \Parser $parser
+	 * @param \PPFrame $frame
+	 */
+	public function __construct( $processedInput, array $processedArgs, \Parser $parser,
+		\PPFrame $frame ) {
 		$this->tagInput = explode( ' ', trim( $processedInput ) );
 		$this->tagArgs = $processedArgs;
 		parent::__construct( $processedInput, $processedArgs, $parser, $frame );
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function magicWordBsCountCharacters() {
 		$out = [];
 		if ( isset( $this->tagArgs['mode']
@@ -60,6 +72,10 @@ class CountCharactersHandler extends Handler {
 		return $out;
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function handle() {
 		$return = '';
 		$countAllData = $this->magicWordBsCountCharacters();
