@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Selven"
+			"Selven",
+			"Dansita"
 		]
 	},
 	"bs-countthings-desc": "Fornisce contenuti in base a statistiche",
@@ -10,6 +11,11 @@
 	"bs-countthings-words-label": "Parole",
 	"bs-countthings-files-label": "File",
 	"bs-countthings-pages-label": "Pagine",
+	"bs-countthings-ve-countcharacters-title": "Conta caratteri",
+	"bs-countthings-ve-countarticles-title": "Conta articoli",
+	"bs-countthings-ve-countfiles-title": "Conta file",
+	"bs-countthings-ve-countusers-title": "Conta utenti",
+	"bs-countthings-ve-countthingsinspector-mode": "Modalità",
 	"bs-countthings-ve-countcharacters-mode-all": "tutto",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "caratteri",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "parole",
