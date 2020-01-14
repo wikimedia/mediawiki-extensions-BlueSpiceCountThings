@@ -2,12 +2,12 @@
 
 namespace BlueSpice\CountThings\Renderer;
 
+use BlueSpice\Renderer\Params;
+use BlueSpice\TemplateRenderer;
+use BlueSpice\Utility\CacheHelper;
 use Config;
 use IContextSource;
-use BlueSpice\Utility\CacheHelper;
 use MediaWiki\Linker\LinkRenderer;
-use BlueSpice\TemplateRenderer;
-use BlueSpice\Renderer\Params;
 
 class CountCharacters extends TemplateRenderer {
 

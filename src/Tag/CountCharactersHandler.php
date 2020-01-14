@@ -2,11 +2,11 @@
 
 namespace BlueSpice\CountThings\Tag;
 
-use BlueSpice\Tag\Handler;
-use BlueSpice\Services;
-use BlueSpice\Renderer\Params;
 use BlueSpice\Renderer;
+use BlueSpice\Renderer\Params;
 use BlueSpice\RendererFactory;
+use BlueSpice\Services;
+use BlueSpice\Tag\Handler;
 
 class CountCharactersHandler extends Handler {
 

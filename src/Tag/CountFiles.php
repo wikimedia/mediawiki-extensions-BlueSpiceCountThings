@@ -2,11 +2,11 @@
 
 namespace BlueSpice\CountThings\Tag;
 
-use BlueSpice\Services;
-use BlueSpice\Tag\Tag;
 use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
+use BlueSpice\Services;
 use BlueSpice\Tag\GenericHandler;
+use BlueSpice\Tag\Tag;
 
 class CountFiles extends Tag {
 
