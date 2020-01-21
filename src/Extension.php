@@ -48,36 +48,4 @@ namespace BlueSpice\CountThings;
  * absolute number of users: <bs:countusers />
  */
 class Extension extends \BlueSpice\Extension {
-
-	/**
-	 * Register tag with UsageTracker extension
-	 * @param array &$aCollectorsConfig
-	 * @return Always true to keep hook running
-	 */
-	public static function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:countarticles'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-bs:countarticles'
-			]
-		];
-		$aCollectorsConfig['bs:countusers'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-bs:countusers'
-			]
-		];
-		$aCollectorsConfig['bs:countfiles'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-bs:countfiles'
-			]
-		];
-		$aCollectorsConfig['bs:countcharacters'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-bs:countcharacters'
-			]
-		];
-	}
 }

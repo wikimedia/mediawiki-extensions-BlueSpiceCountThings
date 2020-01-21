@@ -87,7 +87,12 @@
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountFiles::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountCharacters::callback"
 		],
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\CountThings\\Extension::onBSUsageTrackerRegisterCollectors"
+		"BSUsageTrackerRegisterCollectors": [
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountArticlesTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountCaractersTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountFilesTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountUsersTag::callback"
+		]
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2
