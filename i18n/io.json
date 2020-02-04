@@ -13,5 +13,6 @@
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "vorti",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "karakteri e vorti",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagini",
-	"bs-countthings-tag-countfiles-desc": "Montras la quanto di arkivi che la Wiki."
+	"bs-countthings-tag-countfiles-desc": "Montras la quanto di arkivi che la Wiki.",
+	"bs-countthings-pages-label": "Pagini"
 }
