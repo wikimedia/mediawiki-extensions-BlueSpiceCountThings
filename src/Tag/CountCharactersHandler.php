@@ -81,7 +81,7 @@ class CountCharactersHandler extends Handler {
 		$countAllData = $this->magicWordBsCountCharacters();
 		foreach ( $countAllData as $title => $countData ) {
 			$services = Services::getInstance();
-			$rendererFactory = $services->getBSRendererFactory();
+			$rendererFactory = $services->getService( 'BSRendererFactory' );
 			$rendererFactory instanceof RendererFactory;
 
 			$content = [];

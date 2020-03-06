@@ -19,7 +19,7 @@ class CountFiles extends BSInsertMagicAjaxGetData {
 		$descriptor->code = '<bs:countfiles />';
 		$descriptor->previewable = false;
 		$descriptor->mwvecommand = 'countFilesCommand';
-		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
+		$descriptor->helplink = $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;
 

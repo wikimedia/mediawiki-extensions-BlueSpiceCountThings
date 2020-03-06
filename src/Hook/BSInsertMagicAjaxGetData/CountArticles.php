@@ -19,7 +19,7 @@ class CountArticles extends BSInsertMagicAjaxGetData {
 		$descriptor->code = '<bs:countarticles />';
 		$descriptor->previewable = false;
 		$descriptor->mwvecommand = 'countArticlesCommand';
-		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
+		$descriptor->helplink = $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;
 
