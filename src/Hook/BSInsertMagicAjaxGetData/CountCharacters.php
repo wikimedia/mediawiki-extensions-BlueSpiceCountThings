@@ -29,7 +29,7 @@ class CountCharacters extends BSInsertMagicAjaxGetData {
 				'code' => '<bs:countcharacters mode="chars">ARTICLENAME</bs:countcharacters>'
 			],
 		];
-		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
+		$descriptor->helplink = $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceCountThings' )->getUrl();
 		$this->response->result[] = $descriptor;
 
