@@ -4,5 +4,8 @@
 			"Adam-Yourist"
 		]
 	},
-	"bs-countthings-pages-label": "ОагIонаш"
+	"bs-countthings-pages-label": "ОагIонаш",
+	"bs-countthings-chars-label": "Хьаракаш",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "хьаракаш",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "хьаракаши дешаши"
 }
