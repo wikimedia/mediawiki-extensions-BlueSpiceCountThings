@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
 			"Cwlin0416",
-			"Kly"
+			"Kly",
+			"Liuxinyu970226"
 		]
 	},
 	"bs-countthings-desc": "提供內容的統計資訊",

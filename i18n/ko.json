@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hwangjy9",
-			"Ykhwong",
 			"Comjun04",
-			"Maoue"
+			"Hwangjy9",
+			"Maoue",
+			"Ykhwong"
 		]
 	},
 	"bs-countthings-desc": "콘텐츠에 기반한 통계를 제공합니다",

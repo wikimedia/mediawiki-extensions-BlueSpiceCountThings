@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-countthings-desc": "Pruža statistiku zasnovanu na sadržaju",
 	"bs-countthings-chars-label": "Znakovi",
 	"bs-countthings-words-label": "Reči",
