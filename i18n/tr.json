@@ -24,7 +24,7 @@
 	"bs-countthings-error-no-input": "Hiçbir sayfa sağlanmadı.",
 	"bs-countthings-error-invalid-mode": "\"$1\" modu geçersiz. Lütfen \"chars\", \"words\" veya \"pages\" kullanın.",
 	"bs-countthings-error-not-exist": "\"$1\" sayfası mevcut değil.",
-	"bs-countthings-tag-countarticles-desc": "Vikideki makale sayısını görüntüler.",
+	"bs-countthings-tag-countarticles-desc": "Vikideki madde sayısını görüntüler.",
 	"bs-countthings-tag-countusers-desc": "Kayıtlı kullanıcı sayısını gösterir.",
 	"bs-countthings-tag-countfiles-desc": "Vikideki dosya sayısını görüntüler.",
 	"bs-countthings-tag-countcharacters-desc": "Belirtilen makalenin içeriği hakkında meta veriler oluşturur. Çıktı, bir makaleye entegre edilebilecek bir bilgi kutusudur. \"mode\" parametresi ile farklı türde bilgiler görüntülenebilir.",
