@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Orikrin1998",
 			"Gomoko",
-			"Wladek92",
-			"Yasten",
+			"Orikrin1998",
+			"Thibaut120094",
 			"Trial",
 			"Verdy p",
-			"Thibaut120094"
+			"Wladek92",
+			"Yasten"
 		]
 	},
 	"bs-countthings-desc": "Fournit des statistiques basées sur le contenu",

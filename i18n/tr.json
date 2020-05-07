@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sayginer",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Sayginer"
 		]
 	},
 	"bs-countthings-chars-label": "Karakterler",
-	"bs-countthings-tag-countarticles-desc": "Vikideki makale sayısını görüntüler.",
+	"bs-countthings-tag-countarticles-desc": "Vikideki madde sayısını görüntüler.",
 	"bs-countthings-tag-countusers-desc": "Kayıtlı kullanıcı sayısını gösterir.",
 	"bs-countthings-desc": "İçeriğe dayalı istatistikler sağlar",
 	"bs-countthings-words-label": "Kelimeler",

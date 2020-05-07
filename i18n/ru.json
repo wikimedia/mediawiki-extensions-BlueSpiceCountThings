@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
 			"Facenapalm",
-			"Vlad5250",
-			"Romanko Mikhail"
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
 		]
 	},
 	"bs-countthings-desc": "Предоставляет статистику на основании анализа содержания",

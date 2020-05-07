@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
-			"SPQRobin",
 			"Esketti",
-			"Siebrand",
 			"Mainframe98",
-			"Mar(c)"
+			"Mar(c)",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-countthings-desc": "Biedt inhoudgebaseerde statistieken",
