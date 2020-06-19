@@ -1,13 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"WaldiSt"
 		]
 	},
 	"bs-countthings-chars-label": "Znaki",
 	"bs-countthings-words-label": "Słowa",
 	"bs-countthings-files-label": "Pliki",
 	"bs-countthings-pages-label": "Strony",
+	"bs-countthings-ve-countcharacters-title": "Zliczanie znaków",
+	"bs-countthings-ve-countarticles-title": "Zliczanie artykułów",
+	"bs-countthings-ve-countfiles-title": "Zliczanie plików",
+	"bs-countthings-ve-countusers-title": "Zliczanie użytkowników",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "znaki",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "słowa",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "znaki i słowa",
