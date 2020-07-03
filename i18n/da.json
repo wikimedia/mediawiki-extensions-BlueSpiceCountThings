@@ -14,5 +14,6 @@
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "sider",
 	"bs-countthings-ve-countcharacters-input-label": "Sider",
 	"bs-countthings-tag-countcharacters-example-1": "Antal ord",
-	"bs-countthings-tag-countcharacters-example-2": "Antal tegn"
+	"bs-countthings-tag-countcharacters-example-2": "Antal tegn",
+	"bs-countthings-ve-countthingsinspector-mode": "Tilstand"
 }
