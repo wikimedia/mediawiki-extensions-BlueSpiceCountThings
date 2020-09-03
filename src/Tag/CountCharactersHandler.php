@@ -5,8 +5,8 @@ namespace BlueSpice\CountThings\Tag;
 use BlueSpice\Renderer;
 use BlueSpice\Renderer\Params;
 use BlueSpice\RendererFactory;
-use BlueSpice\Services;
 use BlueSpice\Tag\Handler;
+use MediaWiki\MediaWikiServices;
 
 class CountCharactersHandler extends Handler {
 
@@ -80,7 +80,7 @@ class CountCharactersHandler extends Handler {
 		$return = '';
 		$countAllData = $this->magicWordBsCountCharacters();
 		foreach ( $countAllData as $title => $countData ) {
-			$services = Services::getInstance();
+			$services = MediaWikiServices::getInstance();
 			$rendererFactory = $services->getService( 'BSRendererFactory' );
 			$rendererFactory instanceof RendererFactory;
 
