@@ -4,9 +4,9 @@ namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
-use BlueSpice\Services;
 use BlueSpice\Tag\GenericHandler;
 use BlueSpice\Tag\Tag;
+use MediaWiki\MediaWikiServices;
 
 class CountFiles extends Tag {
 
@@ -22,7 +22,7 @@ class CountFiles extends Tag {
 	 */
 	public function getHandler( $processedInput, array $processedArgs, \Parser $parser,
 		\PPFrame $frame ) {
-		$loadBalancer = Services::getInstance()->getDBLoadBalancer();
+		$loadBalancer = MediaWikiServices::getInstance()->getDBLoadBalancer();
 		return new CountFilesHandler(
 			$loadBalancer,
 			$processedArgs[ static::ATTR_NODUPLICATES ]
