@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Sayginer"
+			"Sayginer",
+			"ToprakM"
 		]
 	},
 	"bs-countthings-chars-label": "Karakterler",
@@ -13,7 +14,7 @@
 	"bs-countthings-files-label": "Dosyalar",
 	"bs-countthings-pages-label": "Sayfalar",
 	"bs-countthings-ve-countcharacters-title": "Karakter say",
-	"bs-countthings-ve-countarticles-title": "Makaleleri say",
+	"bs-countthings-ve-countarticles-title": "Maddeleri say",
 	"bs-countthings-ve-countfiles-title": "Dosyaları say",
 	"bs-countthings-ve-countusers-title": "Kullanıcıları say",
 	"bs-countthings-ve-countthingsinspector-mode": "Mod",
