@@ -3,6 +3,7 @@
 		"authors": [
 			"Alexandr Efremov",
 			"Facenapalm",
+			"Megakott",
 			"Okras",
 			"Romanko Mikhail",
 			"Vlad5250"
@@ -13,6 +14,10 @@
 	"bs-countthings-words-label": "Слова",
 	"bs-countthings-files-label": "Файлы",
 	"bs-countthings-pages-label": "Страницы",
+	"bs-countthings-ve-countcharacters-title": "Счётчик символов",
+	"bs-countthings-ve-countarticles-title": "Счётчик статей",
+	"bs-countthings-ve-countfiles-title": "Счётчик файлов",
+	"bs-countthings-ve-countusers-title": "Счётчик участников",
 	"bs-countthings-ve-countthingsinspector-mode": "Режим",
 	"bs-countthings-ve-countcharacters-mode-all": "все",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "символы",
