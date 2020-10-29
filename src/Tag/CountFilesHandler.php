@@ -14,7 +14,7 @@ class CountFilesHandler extends Handler {
 
 	/**
 	 *
-	 * @var boolean
+	 * @var bool
 	 */
 	protected $noduplicates = true;
 
