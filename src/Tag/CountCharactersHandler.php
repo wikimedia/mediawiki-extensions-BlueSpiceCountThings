@@ -92,7 +92,7 @@ class CountCharactersHandler extends Handler {
 				];
 			}
 
-			$lr = Services::getInstance()->getLinkRenderer();
+			$lr = MediaWikiServices::getInstance()->getLinkRenderer();
 
 			$params = new Params( [
 				'title' => $title,
