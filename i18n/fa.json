@@ -3,7 +3,8 @@
 		"authors": [
 			"Alirezaaa",
 			"Amirsara",
-			"FarsiNevis"
+			"FarsiNevis",
+			"Jeeputer"
 		]
 	},
 	"bs-countthings-desc": "محتوا بر اساس آمار فراهم می‌کند",
@@ -15,6 +16,7 @@
 	"bs-countthings-ve-countarticles-title": "شمار مقاله‌ها",
 	"bs-countthings-ve-countfiles-title": "شمار پرونده‌ها",
 	"bs-countthings-ve-countusers-title": "شمار کاربران",
+	"bs-countthings-ve-countthingsinspector-mode": "حالت",
 	"bs-countthings-ve-countcharacters-mode-all": "همه",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "نویسه‌ها",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "واژه‌ها",
@@ -25,7 +27,7 @@
 	"bs-countthings-error-invalid-mode": "حالت «$1» نامعتبر است. لطفاً از «chars»، «words»، یا «pages» استفاده کنید.",
 	"bs-countthings-error-not-exist": "صفحهٔ «$1» وجود ندارد.",
 	"bs-countthings-tag-countarticles-desc": "تعداد مقاله‌های موجود در ویکی را نمایش می‌دهد.",
-	"bs-countthings-tag-countusers-desc": "تعداد کاربران را نمایش می‌دهد.",
+	"bs-countthings-tag-countusers-desc": "تعداد کاربران ثبت نام کرده را نمایش می‌دهد.",
 	"bs-countthings-tag-countfiles-desc": "شمار پرونده‌های موجود در ویکی را نمایش می‌دهد.",
 	"bs-countthings-tag-countcharacters-desc": "آمار محتوای صفحه داده‌شده را نشان می‌دهد. مشخصه پیکربندی در دسترس است:",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: آنچه باید شمارش شود <code>chars</code> (نویسه‌ها)، <code>words</code> (واژه‌ها) یا <code>pages</code> (صفحات).",
