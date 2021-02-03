@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"WaldiSt"
 		]
 	},
 	"bs-countthings-chars-label": "Znaki",
@@ -18,5 +19,9 @@
 	"bs-countthings-tag-countusers-desc": "Pokazuje liczbę zarejestrowanych użytkowników.",
 	"bs-countthings-tag-countfiles-desc": "Wyświetla liczbę plików w wiki.",
 	"bs-countthings-tag-countcharacters-example-1": "Liczba wyrazów",
-	"bs-countthings-tag-countcharacters-example-2": "Liczba znaków"
+	"bs-countthings-tag-countcharacters-example-2": "Liczba znaków",
+	"bs-countthings-ve-countcharacters-title": "Zliczanie znaków",
+	"bs-countthings-ve-countarticles-title": "Zliczanie artykułów",
+	"bs-countthings-ve-countfiles-title": "Zliczanie plików",
+	"bs-countthings-ve-countusers-title": "Zliczanie użytkowników"
 }

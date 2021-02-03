@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hwangjy9",
-			"Ykhwong",
 			"Comjun04",
-			"Maoue"
+			"Hwangjy9",
+			"Maoue",
+			"Ykhwong"
 		]
 	},
 	"bs-countthings-desc": "콘텐츠에 기반한 통계를 제공합니다",
@@ -26,5 +26,9 @@
 	"bs-countthings-tag-countusers-desc": "등록된 사용자 수를 표시합니다.",
 	"bs-countthings-tag-countfiles-desc": "위키의 파일 수를 표시합니다.",
 	"bs-countthings-tag-countcharacters-example-1": "단어의 수",
-	"bs-countthings-tag-countcharacters-example-2": "문자 수"
+	"bs-countthings-tag-countcharacters-example-2": "문자 수",
+	"bs-countthings-ve-countcharacters-title": "문자 수 세기",
+	"bs-countthings-ve-countarticles-title": "문서 수 세기",
+	"bs-countthings-ve-countfiles-title": "파일 수 세기",
+	"bs-countthings-ve-countusers-title": "사용자 수 세기"
 }

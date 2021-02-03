@@ -1,19 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Sayginer",
-			"BaRaN6161 TURK"
+			"ToprakM"
 		]
 	},
 	"bs-countthings-chars-label": "Karakterler",
-	"bs-countthings-tag-countarticles-desc": "Vikideki makale sayısını görüntüler.",
+	"bs-countthings-tag-countarticles-desc": "Vikideki madde sayısını görüntüler.",
 	"bs-countthings-tag-countusers-desc": "Kayıtlı kullanıcı sayısını gösterir.",
 	"bs-countthings-desc": "İçeriğe dayalı istatistikler sağlar",
 	"bs-countthings-words-label": "Kelimeler",
 	"bs-countthings-files-label": "Dosyalar",
 	"bs-countthings-pages-label": "Sayfalar",
 	"bs-countthings-ve-countcharacters-title": "Karakter say",
-	"bs-countthings-ve-countarticles-title": "Makaleleri say",
+	"bs-countthings-ve-countarticles-title": "Maddeleri say",
 	"bs-countthings-ve-countfiles-title": "Dosyaları say",
 	"bs-countthings-ve-countusers-title": "Kullanıcıları say",
 	"bs-countthings-ve-countthingsinspector-mode": "Mod",

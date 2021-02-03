@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"Fitoschido",
+			"Carlosmg.dg",
 			"Dgstranz",
-			"Yllelder",
-			"Carlosmg.dg"
+			"Fitoschido",
+			"Macofe",
+			"Yllelder"
 		]
 	},
 	"bs-countthings-desc": "Proporciona estadísticas basadas en contenido",

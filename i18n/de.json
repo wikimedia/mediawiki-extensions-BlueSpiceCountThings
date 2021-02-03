@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Metalhead64",
 			"Osnard",
-			"Metalhead64"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Umherirrender"
 		]
 	},
 	"bs-countthings-desc": "Stellt inhaltsbasierte Statistiken bereit",
@@ -23,8 +24,8 @@
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "Seiten",
 	"bs-countthings-ve-countcharacters-input-label": "Seiten",
 	"bs-countthings-error-no-input": "Es wurden keine Seite angegeben.",
-	"bs-countthings-error-invalid-mode": "Der Konfigurationsparameter \"$1\" ist nicht zulässig. Bitte verwende \"chars\", \"words\", oder \"pages\".",
-	"bs-countthings-error-not-exist": "Der Seite \"$1\" existiert nicht.",
+	"bs-countthings-error-invalid-mode": "Der Konfigurationsparameter „$1“ ist nicht zulässig. Bitte verwende „chars“, „words“, oder „pages“.",
+	"bs-countthings-error-not-exist": "Der Seite „$1“ existiert nicht.",
 	"bs-countthings-tag-countarticles-desc": "Zeigt die Anzahl der Artikel im Wiki an.",
 	"bs-countthings-tag-countusers-desc": "Zeigt die Anzahl der registrierten Benutzer an.",
 	"bs-countthings-tag-countfiles-desc": "Zeigt die Anzahl der Dateien in dem Wiki an.",

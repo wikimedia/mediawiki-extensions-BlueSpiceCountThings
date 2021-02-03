@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
 			"Facenapalm",
-			"Vlad5250",
-			"Romanko Mikhail"
+			"Megakott",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
 		]
 	},
 	"bs-countthings-desc": "Предоставляет статистику на основании анализа содержания",
@@ -29,5 +30,9 @@
 	"bs-countthings-tag-countcharacters-desc": "Генерирует метаданные о содержании указанной статьи. На выходе получается карточка, которая может быть включена в статью. С помощью параметра «mode» можно отображать разные типы информации.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Что следует считать <code>chars</code> (символы), <code>words</code> (слова) или <code>pages</code> (страницы).",
 	"bs-countthings-tag-countcharacters-example-1": "Число слов",
-	"bs-countthings-tag-countcharacters-example-2": "Число символов"
+	"bs-countthings-tag-countcharacters-example-2": "Число символов",
+	"bs-countthings-ve-countcharacters-title": "Счётчик символов",
+	"bs-countthings-ve-countarticles-title": "Счётчик статей",
+	"bs-countthings-ve-countfiles-title": "Счётчик файлов",
+	"bs-countthings-ve-countusers-title": "Счётчик участников"
 }
