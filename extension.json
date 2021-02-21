@@ -94,6 +94,6 @@
 			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountUsersTag::callback"
 		]
 	},
-	"load_composer_autoloader" : true,
+	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
