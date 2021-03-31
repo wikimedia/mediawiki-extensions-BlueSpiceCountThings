@@ -3,7 +3,8 @@
 		"authors": [
 			"Aefgh39622",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"Sonicarts"
 		]
 	},
 	"bs-countthings-desc": "コンテンツベースの統計を提供します",
@@ -26,7 +27,7 @@
 	"bs-countthings-tag-countarticles-desc": "このウィキの記事数を表示する。",
 	"bs-countthings-tag-countusers-desc": "登録利用者数を表示する。",
 	"bs-countthings-tag-countfiles-desc": "このウィキのファイル数を表示する。",
-	"bs-countthings-tag-countcharacters-desc": "指定したページの本文の統計を表示する。利用できる属性:",
+	"bs-countthings-tag-countcharacters-desc": "指定した記事の内容に関するメタデータを生成。出力は記事に統合できるinfobox形式。modeパラメータを使うと、様々な情報を表示可能。",
 	"bs-countthings-tag-countcharacters-example-1": "記事数",
 	"bs-countthings-tag-countcharacters-example-2": "文字数"
 }
