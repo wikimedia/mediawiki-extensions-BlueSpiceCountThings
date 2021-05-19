@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joquliina",
 			"Pyscowicz"
 		]
 	},
-	"bs-countthings-ve-countcharacters-mode-all": "kaikki"
+	"bs-countthings-ve-countcharacters-mode-all": "kaikki",
+	"bs-countthings-tag-countcharacters-example-1": "Sanojen määrä",
+	"bs-countthings-tag-countcharacters-example-2": "Merkkien määrä"
 }
