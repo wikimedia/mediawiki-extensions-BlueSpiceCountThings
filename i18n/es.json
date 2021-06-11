@@ -5,6 +5,7 @@
 			"Dgstranz",
 			"Fitoschido",
 			"Macofe",
+			"Rodney Araujo",
 			"Yllelder"
 		]
 	},
@@ -31,5 +32,7 @@
 	"bs-countthings-tag-countcharacters-desc": "Genera metadatos sobre el contenido del artículo indicado. La salida es una caja informativa que se puede integrar en un artículo. Con el parámetro «mode» se pueden mostrar distintos tipos de información.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Lo que debe contarse <code>chars</code> (caracteres), <code>words</code> (palabras) o <code>pages</code> (páginas).",
 	"bs-countthings-tag-countcharacters-example-1": "Número de palabras",
-	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres"
+	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres",
+	"bs-countthings-ve-countcharacters-title": "Contar caracteres",
+	"bs-countthings-ve-countusers-title": "Contar usuarios"
 }
