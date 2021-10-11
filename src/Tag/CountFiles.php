@@ -10,7 +10,7 @@ use MediaWiki\MediaWikiServices;
 
 class CountFiles extends Tag {
 
-	const ATTR_NODUPLICATES = 'noduplicates';
+	public const ATTR_NODUPLICATES = 'noduplicates';
 
 	/**
 	 *
