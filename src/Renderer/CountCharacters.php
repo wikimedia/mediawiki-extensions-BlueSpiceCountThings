@@ -11,8 +11,8 @@ use MediaWiki\Linker\LinkRenderer;
 
 class CountCharacters extends TemplateRenderer {
 
-	const TITLE = 'title';
-	const TITLELINK = 'titlelink';
+	public const TITLE = 'title';
+	public const TITLELINK = 'titlelink';
 
 	/**
 	 * Constructor
