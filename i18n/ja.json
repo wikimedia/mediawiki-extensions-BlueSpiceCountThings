@@ -4,7 +4,8 @@
 			"Aefgh39622",
 			"Otokoume",
 			"Shirayuki",
-			"Sonicarts"
+			"Sonicarts",
+			"RYOUMA1117"
 		]
 	},
 	"bs-countthings-desc": "コンテンツベースの統計を提供します",
@@ -14,6 +15,7 @@
 	"bs-countthings-pages-label": "ページ",
 	"bs-countthings-ve-countarticles-title": "記事を数える",
 	"bs-countthings-ve-countfiles-title": "ファイルを数える",
+	"bs-countthings-ve-countusers-title": "ユーザー数",
 	"bs-countthings-ve-countthingsinspector-mode": "モード",
 	"bs-countthings-ve-countcharacters-mode-all": "すべて",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "文字",
