@@ -3,6 +3,7 @@
 		"authors": [
 			"Aefgh39622",
 			"Otokoume",
+			"RYOUMA1117",
 			"Shirayuki",
 			"Sonicarts"
 		]
@@ -29,5 +30,6 @@
 	"bs-countthings-error-invalid-mode": "モード「$1」は無効です。「chars」、「words」、または「pages」を使用してください。",
 	"bs-countthings-tag-countfiles-desc": "このウィキのファイル数を表示する。",
 	"bs-countthings-tag-countcharacters-example-1": "記事数",
-	"bs-countthings-tag-countcharacters-example-2": "文字数"
+	"bs-countthings-tag-countcharacters-example-2": "文字数",
+	"bs-countthings-ve-countusers-title": "ユーザー数"
 }
