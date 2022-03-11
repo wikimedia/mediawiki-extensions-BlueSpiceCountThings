@@ -4,7 +4,8 @@
 			"Erelon",
 			"Guycn2",
 			"LaG roiL",
-			"Steeve815"
+			"Steeve815",
+			"שוקו מוקה"
 		]
 	},
 	"bs-countthings-desc": "אספקת סטטיסטיקות המבוססות על תוכן",
@@ -28,5 +29,6 @@
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "מילים ואותיות",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "דפים",
 	"bs-countthings-ve-countcharacters-input-label": "דפים",
-	"bs-countthings-tag-countfiles-desc": "מציג את מספר הקבצים באתר."
+	"bs-countthings-tag-countfiles-desc": "מציג את מספר הקבצים באתר.",
+	"bs-countthings-ve-countcharacters-title": "ספירת תווים"
 }

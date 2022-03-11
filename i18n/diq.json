@@ -5,5 +5,8 @@
 			"Mirzali"
 		]
 	},
-	"bs-countthings-pages-label": "Peli"
+	"bs-countthings-pages-label": "Peli",
+	"bs-countthings-files-label": "Dosyeyi",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "peli",
+	"bs-countthings-ve-countcharacters-input-label": "Peli"
 }
