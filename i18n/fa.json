@@ -3,12 +3,13 @@
 		"authors": [
 			"Alirezaaa",
 			"Amirsara",
+			"Beginneruser",
 			"FarsiNevis",
 			"Jeeputer"
 		]
 	},
 	"bs-countthings-desc": "محتوا بر اساس آمار فراهم می‌کند",
-	"bs-countthings-chars-label": "کاراکترها",
+	"bs-countthings-chars-label": "نویسه‌ها",
 	"bs-countthings-words-label": "واژه‌ها",
 	"bs-countthings-files-label": "پرونده‌ها",
 	"bs-countthings-pages-label": "صفحات",
