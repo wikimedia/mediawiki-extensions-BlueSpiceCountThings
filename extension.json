@@ -38,6 +38,22 @@
 			"TagDefinitions": [
 				"ext.bluespice.countthings.visualEditorTagDefinition"
 			]
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"count-users": {
+					"class": "BlueSpice\\CountThings\\ContentDroplets\\CountUserDroplet"
+				},
+				"count-characters": {
+					"class": "BlueSpice\\CountThings\\ContentDroplets\\CountCharactersDroplet"
+				},
+				"count-articles": {
+					"class": "BlueSpice\\CountThings\\ContentDroplets\\CountArticlesDroplet"
+				},
+				"count-files": {
+					"class": "BlueSpice\\CountThings\\ContentDroplets\\CountFilesDroplet"
+				}
+			}
 		}
 	},
 	"ResourceModules": {
