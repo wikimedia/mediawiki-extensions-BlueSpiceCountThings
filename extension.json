@@ -81,6 +81,9 @@
 				"bs-countthings-tag-countfiles-desc",
 				"bs-countthings-ve-countusers-title",
 				"bs-countthings-tag-countusers-desc"
+			],
+			"dependencies": [
+				"ext.bluespice.visualEditorConnector.tags.classes"
 			]
 		}
 	},
