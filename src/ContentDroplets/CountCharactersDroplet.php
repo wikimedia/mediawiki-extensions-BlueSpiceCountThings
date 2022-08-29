@@ -55,30 +55,7 @@ class CountCharactersDroplet extends TagDroplet {
 	 * @return array
 	 */
 	protected function getAttributes(): array {
-		return [
-			'mode' => [
-				[
-					[ 'data' ] => 'all',
-					[ 'label' ] => Message::newFromKey( 'bs-countthings-ve-countcharacters-mode-all' )
-				],
-				[
-					[ 'data' ] => 'chars',
-					[ 'label' ] => Message::newFromKey( 'bs-countthings-ve-countcharacters-mode-charsonly' )
-				],
-				[
-					[ 'data' ] => 'words',
-					[ 'label' ] => Message::newFromKey( 'bs-countthings-ve-countcharacters-mode-wordsonly' )
-				],
-				[
-					[ 'data' ] => 'chars words',
-					[ 'label' ] => Message::newFromKey( 'bs-countthings-ve-countcharacters-mode-wordsandchars' )
-				],
-				[
-					[ 'data' ] => 'pages',
-					[ 'label' ] => Message::newFromKey( 'bs-countthings-ve-countcharacters-mode-pagesonly' )
-				]
-			]
-		];
+		return [];
 	}
 
 	/**
