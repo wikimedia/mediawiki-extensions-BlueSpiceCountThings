@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Erelon",
 			"Guycn2",
 			"LaG roiL",
@@ -30,5 +31,8 @@
 	"bs-countthings-tag-countcharacters-desc": "יצירת מטא־נתונים עם התוכן של ערך מסוים. הפלט הוא תיבת מידע שניתן לשלבהּ בערך. אפשר להציג סוגים שונים של מידע באמצעות הפרמטר \"mode\".",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: מה צריך לספור – <code>chars</code> (תווים), <code>words</code> (מילים) או <code>pages</code> (דפים).",
 	"bs-countthings-tag-countcharacters-example-1": "מספר המילים",
-	"bs-countthings-tag-countcharacters-example-2": "מספר התווים"
+	"bs-countthings-tag-countcharacters-example-2": "מספר התווים",
+	"bs-countthings-ve-countarticles-title": "ספירת ערכים",
+	"bs-countthings-ve-countfiles-title": "ספירת קבצים",
+	"bs-countthings-ve-countusers-title": "ספירת משתמשים"
 }
