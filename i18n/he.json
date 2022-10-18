@@ -5,7 +5,8 @@
 			"Guycn2",
 			"LaG roiL",
 			"Steeve815",
-			"שוקו מוקה"
+			"שוקו מוקה",
+			"Amire80"
 		]
 	},
 	"bs-countthings-desc": "אספקת סטטיסטיקות המבוססות על תוכן",
@@ -14,6 +15,9 @@
 	"bs-countthings-files-label": "קבצים",
 	"bs-countthings-pages-label": "דפים",
 	"bs-countthings-ve-countcharacters-title": "ספירת תווים",
+	"bs-countthings-ve-countarticles-title": "ספירת ערכים",
+	"bs-countthings-ve-countfiles-title": "ספירת קבצים",
+	"bs-countthings-ve-countusers-title": "ספירת משתמשים",
 	"bs-countthings-ve-countthingsinspector-mode": "מצב",
 	"bs-countthings-ve-countcharacters-mode-all": "הכול",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "תווים",
