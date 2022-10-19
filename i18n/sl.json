@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Skalcaa"
 		]
 	},
@@ -12,7 +13,7 @@
 	"bs-countthings-error-no-input": "Ni podane strani.",
 	"bs-countthings-error-invalid-mode": "Način \"$1\" ni veljaven. Prosimo, uporabite \"chars\", \"words\" ali \"pages\".",
 	"bs-countthings-error-not-exist": "Stran \"$1\" ne obstaja.",
-	"bs-countthings-tag-countarticles-desc": "Prikaže število člankov na tem wikiju.",
+	"bs-countthings-tag-countarticles-desc": "Prikaže število člankov v tem vikiju.",
 	"bs-countthings-tag-countusers-desc": "Prikaže število registriranih uporabnikov.",
 	"bs-countthings-tag-countcharacters-desc": "Ustvari metapodatke iz vsebine navedenega članka. Izhod je infopolje, ki ga lahko vključite v članek. S parametrom »mode« lahko prikažete različne vrste informacij.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Kaj naj se šteje? <code>chars</code> (znaki), <code>words</code> (besede) ali <code>pages</code> (strani).",
