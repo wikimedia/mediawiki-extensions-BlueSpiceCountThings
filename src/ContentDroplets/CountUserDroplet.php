@@ -4,7 +4,6 @@ namespace BlueSpice\CountThings\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class CountUserDroplet extends TagDroplet {
 
@@ -12,28 +11,28 @@ class CountUserDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Count users' );
+		return Message::newFromKey( 'bs-countthings-droplet-user-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Count users description" );
+		return Message::newFromKey( 'bs-countthings-droplet-user-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'userGroup';
+		return 'droplet-user';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.countthings.visualEditorTagDefinition';
+	public function getRLModules(): string {
+		return [ 'ext.bluespice.countthings.visualEditorTagDefinition' ];
 	}
 
 	/**

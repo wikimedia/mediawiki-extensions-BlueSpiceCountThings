@@ -4,7 +4,6 @@ namespace BlueSpice\CountThings\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class CountFilesDroplet extends TagDroplet {
 
@@ -12,28 +11,28 @@ class CountFilesDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Count files' );
+		return Message::newFromKey( 'bs-countthings-droplet-files-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Count files description" );
+		return Message::newFromKey( 'bs-countthings-droplet-files-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'attachment';
+		return 'droplet-files';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.countthings.visualEditorTagDefinition';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.countthings.visualEditorTagDefinition' ];
 	}
 
 	/**
