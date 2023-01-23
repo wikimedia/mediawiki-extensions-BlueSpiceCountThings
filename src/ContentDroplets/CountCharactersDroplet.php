@@ -4,7 +4,6 @@ namespace BlueSpice\CountThings\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class CountCharactersDroplet extends TagDroplet {
 
@@ -12,28 +11,28 @@ class CountCharactersDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Count characters' );
+		return Message::newFromKey( 'bs-countthings-droplet-characters-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Count characters description" );
+		return Message::newFromKey( 'bs-countthings-droplet-characters-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'mathematics';
+		return 'droplet-characters';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.countthings.visualEditorTagDefinition';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.countthings.visualEditorTagDefinition' ];
 	}
 
 	/**
