@@ -5,7 +5,8 @@
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
-			"Sonicarts"
+			"Sonicarts",
+			"背番号4のエース"
 		]
 	},
 	"bs-countthings-desc": "コンテンツベースの統計を提供します",
@@ -31,5 +32,7 @@
 	"bs-countthings-tag-countcharacters-desc": "指定した記事の内容に関するメタデータを生成。出力は記事に統合できるinfobox形式。modeパラメータを使うと、様々な情報を表示可能。",
 	"bs-countthings-tag-countcharacters-example-1": "記事数",
 	"bs-countthings-tag-countcharacters-example-2": "文字数",
-	"bs-countthings-ve-countusers-title": "ユーザー数"
+	"bs-countthings-ve-countusers-title": "ユーザー数",
+	"bs-countthings-ve-countcharacters-title": "文字数を数える",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>:<code>chars</code> (文字)、 <code>words</code> (単語)、または<code>pages</code> (ページ) をカウントする必要があります。"
 }
