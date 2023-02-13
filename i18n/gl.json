@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Xabier Cid"
 		]
 	},
 	"bs-countthings-desc": "Proporciona estatísticas baseadas no contido",
@@ -10,6 +11,10 @@
 	"bs-countthings-words-label": "Palabras",
 	"bs-countthings-files-label": "Ficheiros",
 	"bs-countthings-pages-label": "Páxinas",
+	"bs-countthings-ve-countcharacters-title": "Conta de caracteres",
+	"bs-countthings-ve-countarticles-title": "Conta de artigos",
+	"bs-countthings-ve-countfiles-title": "Conta de ficheiros",
+	"bs-countthings-ve-countusers-title": "Conta de usuarios",
 	"bs-countthings-ve-countthingsinspector-mode": "Modo",
 	"bs-countthings-ve-countcharacters-mode-all": "todos",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "caracteres",
