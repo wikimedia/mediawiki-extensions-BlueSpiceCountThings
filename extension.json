@@ -64,6 +64,9 @@
 				"bs.cntthngs/util/tag/CountFilesDefinition.js",
 				"bs.cntthngs/util/tag/CountUsersDefinition.js"
 			],
+			"styles": [
+				"stylesheets/cntthings.droplet.css"
+			],
 			"messages": [
 				"bs-countthings-tag-countcharacters-desc",
 				"bs-countthings-ve-countthingsinspector-mode",
@@ -80,7 +83,15 @@
 				"bs-countthings-ve-countfiles-title",
 				"bs-countthings-tag-countfiles-desc",
 				"bs-countthings-ve-countusers-title",
-				"bs-countthings-tag-countusers-desc"
+				"bs-countthings-tag-countusers-desc",
+				"bs-countthings-droplet-articles-name",
+				"bs-countthings-droplet-articles-description",
+				"bs-countthings-droplet-characters-name",
+				"bs-countthings-droplet-characters-description",
+				"bs-countthings-droplet-files-name",
+				"bs-countthings-droplet-files-description",
+				"bs-countthings-droplet-user-name",
+				"bs-countthings-droplet-user-description"
 			],
 			"dependencies": [
 				"ext.bluespice.visualEditorConnector.tags.classes"
@@ -100,6 +111,7 @@
 		"remoteExtPath": "BlueSpiceCountThings/resources"
 	},
 	"Hooks": {
+		"MessageCache::get": "\\BlueSpice\\CountThings\\Hook\\MockMessages::mockMessages",
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
