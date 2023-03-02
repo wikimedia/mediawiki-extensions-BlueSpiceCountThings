@@ -29,5 +29,13 @@
 	"bs-countthings-tag-countcharacters-desc": "Genera metadatos sur le contento del articulo indicate. Le resultato es un quadro informative que pote esser integrate in un articulo. Con le parametro \"mode\", differente typos de information pote esser monstrate.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Lo que debe esser contate: <code>chars</code> (characteres), <code>words</code> (parolas) o <code>pages</code> (paginas).",
 	"bs-countthings-tag-countcharacters-example-1": "Numero de parolas",
-	"bs-countthings-tag-countcharacters-example-2": "Numero de characteres"
+	"bs-countthings-tag-countcharacters-example-2": "Numero de characteres",
+	"bs-countthings-droplet-articles-name": "Numero de paginas",
+	"bs-countthings-droplet-articles-description": "Monstra le numero de paginas",
+	"bs-countthings-droplet-characters-name": "Numero de characteres",
+	"bs-countthings-droplet-characters-description": "Monstra le numero de characteres o parolas in un pagina wiki",
+	"bs-countthings-droplet-files-name": "Numero de files",
+	"bs-countthings-droplet-files-description": "Monstra le numero de tote le files incargate",
+	"bs-countthings-droplet-user-name": "Numero de usatores",
+	"bs-countthings-droplet-user-description": "Monstra le numero de tote le usatores"
 }

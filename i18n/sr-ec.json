@@ -3,6 +3,7 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Zoranzoki21"
 		]
 	},
@@ -29,5 +30,9 @@
 	"bs-countthings-tag-countusers-desc": "Приказује број регистрованих корисника.",
 	"bs-countthings-tag-countfiles-desc": "Приказује број датотека на викију.",
 	"bs-countthings-tag-countcharacters-example-1": "Број речи",
-	"bs-countthings-tag-countcharacters-example-2": "Број знакова"
+	"bs-countthings-tag-countcharacters-example-2": "Број знакова",
+	"bs-countthings-droplet-articles-name": "Број страница",
+	"bs-countthings-droplet-characters-name": "Број знакова",
+	"bs-countthings-droplet-files-name": "Број датотека",
+	"bs-countthings-droplet-user-name": "Број корисника"
 }
