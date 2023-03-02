@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Lewis2013",
 			"Orikrin1998",
 			"Thibaut120094",
 			"Trial",
@@ -35,5 +36,13 @@
 	"bs-countthings-tag-countcharacters-desc": "Affiche les métadonnées du contenu de la page donnée. Le résultat est une boîte d’infos qui peut être intégrée dans un article. Divers types d’informations possibles selon le paramètre « mode ».",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code> : ce qui doit être compté comme <code>chars</code> (caractères), <code>words</code> (mots) ou <code>pages</code> (pages).",
 	"bs-countthings-tag-countcharacters-example-1": "Nombre de mots",
-	"bs-countthings-tag-countcharacters-example-2": "Nombre de caractères"
+	"bs-countthings-tag-countcharacters-example-2": "Nombre de caractères",
+	"bs-countthings-droplet-articles-name": "Nombre de pages",
+	"bs-countthings-droplet-articles-description": "Affiche le nombre de pages",
+	"bs-countthings-droplet-characters-name": "Nombre de characteres",
+	"bs-countthings-droplet-characters-description": "Affiche le nombre de caractères ou de mots dans une page du wiki",
+	"bs-countthings-droplet-files-name": "Nombre de fichiers",
+	"bs-countthings-droplet-files-description": "Montrer le nombre de tout les fichiers enregistres",
+	"bs-countthings-droplet-user-name": "Nombre d’utilisateur",
+	"bs-countthings-droplet-user-description": "Afficher le nombre total d’utilisateurs"
 }

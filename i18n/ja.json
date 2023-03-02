@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"MathXplore",
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
 			"Sonicarts",
+			"もなー(偽物)",
 			"背番号4のエース"
 		]
 	},
@@ -34,5 +36,13 @@
 	"bs-countthings-tag-countcharacters-desc": "指定した記事の内容に関するメタデータを生成。出力は記事に統合できるinfobox形式。modeパラメータを使うと、様々な情報を表示可能。",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>:<code>chars</code> (文字)、 <code>words</code> (単語)、または<code>pages</code> (ページ) をカウントする必要があります。",
 	"bs-countthings-tag-countcharacters-example-1": "記事数",
-	"bs-countthings-tag-countcharacters-example-2": "文字数"
+	"bs-countthings-tag-countcharacters-example-2": "文字数",
+	"bs-countthings-droplet-articles-name": "ページ数",
+	"bs-countthings-droplet-articles-description": "ページ数を表示",
+	"bs-countthings-droplet-characters-name": "文字数",
+	"bs-countthings-droplet-characters-description": "Wikiページの文字数・単語数を表示する",
+	"bs-countthings-droplet-files-name": "ファイル数",
+	"bs-countthings-droplet-files-description": "アップロードされたすべてのファイル数を表示",
+	"bs-countthings-droplet-user-name": "利用者数",
+	"bs-countthings-droplet-user-description": "すべてのユーザー数を表示"
 }
