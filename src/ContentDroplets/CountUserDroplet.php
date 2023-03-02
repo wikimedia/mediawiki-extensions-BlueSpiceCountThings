@@ -31,7 +31,7 @@ class CountUserDroplet extends TagDroplet {
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModules(): string {
+	public function getRLModules(): array {
 		return [ 'ext.bluespice.countthings.visualEditorTagDefinition' ];
 	}
 
