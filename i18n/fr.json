@@ -39,10 +39,10 @@
 	"bs-countthings-tag-countcharacters-example-2": "Nombre de caractères",
 	"bs-countthings-droplet-articles-name": "Nombre de pages",
 	"bs-countthings-droplet-articles-description": "Affiche le nombre de pages",
-	"bs-countthings-droplet-characters-name": "Nombre de characteres",
+	"bs-countthings-droplet-characters-name": "Nombre de caractères",
 	"bs-countthings-droplet-characters-description": "Affiche le nombre de caractères ou de mots dans une page du wiki",
 	"bs-countthings-droplet-files-name": "Nombre de fichiers",
-	"bs-countthings-droplet-files-description": "Montrer le nombre de tout les fichiers enregistres",
-	"bs-countthings-droplet-user-name": "Nombre d’utilisateur",
+	"bs-countthings-droplet-files-description": "Afficher le nombre total de fichiers téléversés",
+	"bs-countthings-droplet-user-name": "Nombre d’utilisateurs",
 	"bs-countthings-droplet-user-description": "Afficher le nombre total d’utilisateurs"
 }
