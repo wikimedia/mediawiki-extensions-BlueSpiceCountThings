@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
+			"John Smith Ri",
 			"Liuxinyu970226",
 			"Phenolla",
 			"Yfdyh000",
@@ -33,5 +34,7 @@
 	"bs-countthings-tag-countcharacters-desc": "在显示条目的内容上生成元数据。输出内容是可集成到条目中的信息框。通过参数“mode”，可显示不同的信息类型。",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>：什么<code>chars</code>（字符）、<code>words</code>（文字）或<code>pages</code>（页面）应该统计。",
 	"bs-countthings-tag-countcharacters-example-1": "单词数",
-	"bs-countthings-tag-countcharacters-example-2": "字符数"
+	"bs-countthings-tag-countcharacters-example-2": "字符数",
+	"bs-countthings-droplet-characters-name": "字符数",
+	"bs-countthings-droplet-user-name": "用户人数"
 }

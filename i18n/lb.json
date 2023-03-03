@@ -31,5 +31,8 @@
 	"bs-countthings-tag-countcharacters-example-2": "Zuel vun den Zeechen",
 	"bs-countthings-droplet-characters-name": "Zuel vun den Zeechen",
 	"bs-countthings-droplet-files-name": "Zuel vun de Fichieren",
-	"bs-countthings-droplet-user-name": "Zuel vun de Benotzer"
+	"bs-countthings-droplet-user-name": "Zuel vun de Benotzer",
+	"bs-countthings-droplet-articles-name": "Zuel vun de Säiten",
+	"bs-countthings-droplet-characters-description": "Weist d'Zuel vun den Zeechen oder Wierder op enger Wikisäit",
+	"bs-countthings-droplet-user-description": "Weist d'Zuel vun alle Benotzer"
 }
