@@ -3,7 +3,8 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Madeleinemcc"
 		]
 	},
 	"bs-countthings-desc": "提供內容的統計資訊",
@@ -31,5 +32,11 @@
 	"bs-countthings-tag-countcharacters-desc": "產生在指示出條目內容的詮釋資料。輸出內容為可整合在條目的訊息框，並以參數「mode」來顯示出不同種類訊息。",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>：指定要被計算在<code>chars</code>（字元）、<code>words</code>（單字），或是<code>pages</code>（頁面）的項目。",
 	"bs-countthings-tag-countcharacters-example-1": "字詞數",
-	"bs-countthings-tag-countcharacters-example-2": "字元數"
+	"bs-countthings-tag-countcharacters-example-2": "字元數",
+	"bs-countthings-droplet-articles-name": "頁面數量",
+	"bs-countthings-droplet-articles-description": "顯示頁面的數量",
+	"bs-countthings-droplet-files-name": "擋案數量",
+	"bs-countthings-droplet-files-description": "顯示所有擋案的總數量",
+	"bs-countthings-droplet-user-name": "用戶數量",
+	"bs-countthings-droplet-user-description": "顯示所有用戶的總數量"
 }
