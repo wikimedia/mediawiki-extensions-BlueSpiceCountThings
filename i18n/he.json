@@ -34,5 +34,13 @@
 	"bs-countthings-tag-countcharacters-example-2": "מספר התווים",
 	"bs-countthings-ve-countarticles-title": "ספירת ערכים",
 	"bs-countthings-ve-countfiles-title": "ספירת קבצים",
-	"bs-countthings-ve-countusers-title": "ספירת משתמשים"
+	"bs-countthings-ve-countusers-title": "ספירת משתמשים",
+	"bs-countthings-droplet-articles-name": "מספר הדפים",
+	"bs-countthings-droplet-articles-description": "הצגת את מספר הדפים",
+	"bs-countthings-droplet-characters-name": "מספר התווים",
+	"bs-countthings-droplet-characters-description": "הצגת מספר התווים או המילים בדף ויקי",
+	"bs-countthings-droplet-files-name": "מספר הקבצים",
+	"bs-countthings-droplet-files-description": "הצגת המספר של כל הקבצים שהועלו",
+	"bs-countthings-droplet-user-name": "מספר המשתמשים",
+	"bs-countthings-droplet-user-description": "הצגת המספר של כל המשתמשים"
 }
