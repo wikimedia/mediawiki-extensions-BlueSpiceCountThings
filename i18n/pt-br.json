@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Re demz"
 		]
 	},
 	"bs-countthings-desc": "Fornece conteúdo baseado em estatísticas",
@@ -31,5 +32,13 @@
 	"bs-countthings-tag-countcharacters-desc": "Gera metadados sobre o conteúdo do artigo indicado. O resultado é uma caixa informativa que pode ser integrada num artigo. Usando o parâmetro \"mode\" pode mostrar-se vários tipos de informação.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: O que deve ser contado <code>chars</code> (caracters), <code>words</code> (palavras) ou <code>pages</code> (páginas).",
 	"bs-countthings-tag-countcharacters-example-1": "Número de palavras",
-	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres"
+	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres",
+	"bs-countthings-droplet-articles-name": "Número de páginas",
+	"bs-countthings-droplet-articles-description": "Mosta o número de páginas",
+	"bs-countthings-droplet-characters-name": "Número de caracteres",
+	"bs-countthings-droplet-characters-description": "Mostra o número de caracteres ou palavras em uma página wiki",
+	"bs-countthings-droplet-files-name": "Número de arquivos",
+	"bs-countthings-droplet-files-description": "Mostra o número de todos os arquivos carregados",
+	"bs-countthings-droplet-user-name": "Número de usuários",
+	"bs-countthings-droplet-user-description": "Mostra o número de todos os usuários"
 }
