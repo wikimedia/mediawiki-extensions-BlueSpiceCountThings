@@ -3,6 +3,7 @@
 		"authors": [
 			"Alexandr Efremov",
 			"Facenapalm",
+			"Kareyac",
 			"Megakott",
 			"Okras",
 			"Romanko Mikhail",
@@ -34,5 +35,6 @@
 	"bs-countthings-ve-countcharacters-title": "Счётчик символов",
 	"bs-countthings-ve-countarticles-title": "Счётчик статей",
 	"bs-countthings-ve-countfiles-title": "Счётчик файлов",
-	"bs-countthings-ve-countusers-title": "Счётчик участников"
+	"bs-countthings-ve-countusers-title": "Счётчик участников",
+	"bs-countthings-droplet-articles-name": "Количество страниц"
 }
