@@ -111,7 +111,6 @@
 		"remoteExtPath": "BlueSpiceCountThings/resources"
 	},
 	"Hooks": {
-		"MessageCache::get": "\\BlueSpice\\CountThings\\Hook\\MockMessages::mockMessages",
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
