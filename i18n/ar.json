@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AA800",
 			"Meno25",
 			"Sonic N800",
 			"ديفيد",
@@ -33,5 +34,7 @@
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: ما يجب أن يُحسَب <code>chars</code> (characters) أو <code>words</code> (كلمات) أو <code>pages</code> (صفحات).",
 	"bs-countthings-tag-countcharacters-example-1": "عدد الكلمات",
 	"bs-countthings-tag-countcharacters-example-2": "عدد الحروف",
-	"bs-countthings-droplet-articles-name": "عدد الصفحات"
+	"bs-countthings-droplet-articles-name": "عدد الصفحات",
+	"bs-countthings-droplet-user-name": "عدد المستخدمين",
+	"bs-countthings-droplet-user-description": "اعرض عدد كل المستخدمين"
 }
