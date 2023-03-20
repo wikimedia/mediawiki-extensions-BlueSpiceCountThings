@@ -36,5 +36,8 @@
 	"bs-countthings-ve-countarticles-title": "Счётчик статей",
 	"bs-countthings-ve-countfiles-title": "Счётчик файлов",
 	"bs-countthings-ve-countusers-title": "Счётчик участников",
-	"bs-countthings-droplet-articles-name": "Количество страниц"
+	"bs-countthings-droplet-articles-name": "Количество страниц",
+	"bs-countthings-droplet-files-name": "Количество файлов",
+	"bs-countthings-droplet-files-description": "Показывает количество всех загруженных файлов",
+	"bs-countthings-droplet-user-name": "Количество участников"
 }
