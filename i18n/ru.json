@@ -36,5 +36,8 @@
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Что следует считать <code>chars</code> (символы), <code>words</code> (слова) или <code>pages</code> (страницы).",
 	"bs-countthings-tag-countcharacters-example-1": "Число слов",
 	"bs-countthings-tag-countcharacters-example-2": "Число символов",
-	"bs-countthings-droplet-articles-name": "Количество страниц"
+	"bs-countthings-droplet-articles-name": "Количество страниц",
+	"bs-countthings-droplet-files-name": "Количество файлов",
+	"bs-countthings-droplet-files-description": "Показывает количество всех загруженных файлов",
+	"bs-countthings-droplet-user-name": "Количество участников"
 }
