@@ -13,5 +13,6 @@
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "sivut",
 	"bs-countthings-error-no-input": "Ei annettua sivua.",
 	"bs-countthings-tag-countcharacters-example-1": "Sanojen määrä",
-	"bs-countthings-tag-countcharacters-example-2": "Merkkien määrä"
+	"bs-countthings-tag-countcharacters-example-2": "Merkkien määrä",
+	"bs-countthings-droplet-articles-name": "Sivujen määrä"
 }
