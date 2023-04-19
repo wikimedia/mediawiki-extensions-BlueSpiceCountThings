@@ -2,6 +2,8 @@
 
 namespace BlueSpice\CountThings\Tag;
 
+use MediaWiki\MediaWikiServices;
+
 class CountArticles extends \BlueSpice\Tag\Tag {
 
 	/**
@@ -22,11 +24,13 @@ class CountArticles extends \BlueSpice\Tag\Tag {
 	 */
 	public function getHandler( $processedInput, array $processedArgs, \Parser $parser,
 		\PPFrame $frame ) {
+		$namespaceInfo = MediaWikiServices::getInstance()->getNamespaceInfo();
 		return new CountArticlesHandler(
 			$processedInput,
 			$processedArgs,
 			$parser,
-			$frame
+			$frame,
+			$namespaceInfo
 		);
 	}
 
