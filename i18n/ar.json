@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AA800",
+			"Alshamiri1",
 			"Meno25",
 			"Sonic N800",
 			"ديفيد",
@@ -36,5 +37,9 @@
 	"bs-countthings-tag-countcharacters-example-2": "عدد الحروف",
 	"bs-countthings-droplet-articles-name": "عدد الصفحات",
 	"bs-countthings-droplet-user-name": "عدد المستخدمين",
-	"bs-countthings-droplet-user-description": "اعرض عدد كل المستخدمين"
+	"bs-countthings-droplet-user-description": "اعرض عدد كل المستخدمين",
+	"bs-countthings-droplet-articles-description": "يظهر عدد الصفحات",
+	"bs-countthings-droplet-characters-description": "يظهر عدد الأحرف أو الكلمات في صفحة wiki",
+	"bs-countthings-droplet-files-name": "عدد الملفات",
+	"bs-countthings-droplet-files-description": "يظهر عدد جميع الملفات التي تم تحميلها"
 }
