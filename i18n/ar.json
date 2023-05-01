@@ -41,5 +41,6 @@
 	"bs-countthings-droplet-articles-description": "يظهر عدد الصفحات",
 	"bs-countthings-droplet-characters-description": "يظهر عدد الأحرف أو الكلمات في صفحة wiki",
 	"bs-countthings-droplet-files-name": "عدد الملفات",
-	"bs-countthings-droplet-files-description": "يظهر عدد جميع الملفات التي تم تحميلها"
+	"bs-countthings-droplet-files-description": "يظهر عدد جميع الملفات التي تم تحميلها",
+	"bs-countthings-droplet-characters-name": "عدد الحروف"
 }
