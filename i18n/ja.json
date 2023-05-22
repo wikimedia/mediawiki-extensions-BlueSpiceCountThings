@@ -18,7 +18,7 @@
 	"bs-countthings-pages-label": "ページ",
 	"bs-countthings-ve-countarticles-title": "記事を数える",
 	"bs-countthings-ve-countfiles-title": "ファイルを数える",
-	"bs-countthings-ve-countusers-title": "ユーザー数",
+	"bs-countthings-ve-countusers-title": "利用者数",
 	"bs-countthings-ve-countthingsinspector-mode": "モード",
 	"bs-countthings-ve-countcharacters-mode-all": "すべて",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "文字",
@@ -44,5 +44,5 @@
 	"bs-countthings-droplet-files-name": "ファイル数",
 	"bs-countthings-droplet-files-description": "アップロードされたすべてのファイル数を表示",
 	"bs-countthings-droplet-user-name": "利用者数",
-	"bs-countthings-droplet-user-description": "すべてのユーザー数を表示"
+	"bs-countthings-droplet-user-description": "すべての利用者数を表示"
 }
