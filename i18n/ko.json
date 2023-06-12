@@ -30,5 +30,13 @@
 	"bs-countthings-ve-countcharacters-title": "문자 수 세기",
 	"bs-countthings-ve-countarticles-title": "문서 수 세기",
 	"bs-countthings-ve-countfiles-title": "파일 수 세기",
-	"bs-countthings-ve-countusers-title": "사용자 수 세기"
+	"bs-countthings-ve-countusers-title": "사용자 수 세기",
+	"bs-countthings-droplet-articles-name": "문서 수",
+	"bs-countthings-droplet-articles-description": "문서 수를 보여줍니다",
+	"bs-countthings-droplet-characters-name": "문자 수",
+	"bs-countthings-droplet-characters-description": "위키 문서 내 문자 또는 단어 수를 보여줍니다",
+	"bs-countthings-droplet-files-name": "파일 수",
+	"bs-countthings-droplet-files-description": "업로드된 모든 파일의 수를 표시합니다",
+	"bs-countthings-droplet-user-name": "사용자 수",
+	"bs-countthings-droplet-user-description": "모든 사용자 수를 표시합니다"
 }
