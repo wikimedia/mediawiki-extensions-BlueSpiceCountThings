@@ -38,5 +38,7 @@
 	"bs-countthings-droplet-files-name": "擋案數量",
 	"bs-countthings-droplet-files-description": "顯示所有擋案的總數量",
 	"bs-countthings-droplet-user-name": "用戶數量",
-	"bs-countthings-droplet-user-description": "顯示所有用戶的總數量"
+	"bs-countthings-droplet-user-description": "顯示所有用戶的總數量",
+	"bs-countthings-droplet-characters-name": "字元數",
+	"bs-countthings-droplet-characters-description": "顯示 wiki 頁面裡的字元數或單字數"
 }
