@@ -3,8 +3,8 @@
 namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\Tag\Handler;
-use CoreParserFunctions;
 use NamespaceInfo;
+use SiteStats;
 
 class CountArticlesHandler extends Handler {
 
@@ -34,7 +34,7 @@ class CountArticlesHandler extends Handler {
 		$namespaces = $this->namespaceInfo->getValidNamespaces();
 		foreach ( $namespaces as $namespace ) {
 			if ( $this->namespaceInfo->isContent( $namespace ) ) {
-				$count += CoreParserFunctions::pagesinnamespace( $this->parser, $namespace );
+				$count += SiteStats::pagesInNs( $namespace );
 			}
 		}
 		return " $count ";
