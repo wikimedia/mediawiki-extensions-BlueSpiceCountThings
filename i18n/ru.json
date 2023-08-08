@@ -39,5 +39,6 @@
 	"bs-countthings-droplet-articles-name": "Количество страниц",
 	"bs-countthings-droplet-files-name": "Количество файлов",
 	"bs-countthings-droplet-files-description": "Показывает количество всех загруженных файлов",
-	"bs-countthings-droplet-user-name": "Количество участников"
+	"bs-countthings-droplet-user-name": "Количество участников",
+	"bs-countthings-droplet-characters-name": "Количество символов"
 }
