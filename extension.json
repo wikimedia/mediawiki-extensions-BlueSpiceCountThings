@@ -111,12 +111,6 @@
 		"remoteExtPath": "BlueSpiceCountThings/resources"
 	},
 	"Hooks": {
-		"BSInsertMagicAjaxGetData": [
-			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
-			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
-			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountFiles::callback",
-			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountCharacters::callback"
-		],
 		"BSUsageTrackerRegisterCollectors": [
 			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountArticlesTag::callback",
 			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountCaractersTag::callback",
