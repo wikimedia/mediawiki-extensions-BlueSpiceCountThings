@@ -28,8 +28,6 @@
 	"bs-countthings-tag-countfiles-desc": "Displays the number of files in the wiki.",
 	"bs-countthings-tag-countcharacters-desc": "Generates metadata on the content of the indicated article. The output is an infobox that can be integrated into an article. With the parameter \"mode\" different kind of information can be displayed.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: What should be counted <code>chars</code> (characters), <code>words</code> (words) or <code>pages</code> (pages).",
-	"bs-countthings-tag-countcharacters-example-1": "Number of words",
-	"bs-countthings-tag-countcharacters-example-2": "Number of characters",
 	"bs-countthings-droplet-articles-name": "Number of pages",
 	"bs-countthings-droplet-articles-description": "Shows the number of pages",
 	"bs-countthings-droplet-characters-name": "Number of characters",
