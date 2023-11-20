@@ -23,5 +23,13 @@
 	"bs-countthings-error-not-exist": "Stranica „$1” ne postoji.",
 	"bs-countthings-tag-countarticles-desc": "Prikazuje broj članaka na vikiju.",
 	"bs-countthings-tag-countusers-desc": "Prikazuje broj registrovanih korisnika.",
-	"bs-countthings-tag-countfiles-desc": "Prikazuje broj datoteka na vikiju."
+	"bs-countthings-tag-countfiles-desc": "Prikazuje broj datoteka na vikiju.",
+	"bs-countthings-droplet-articles-name": "Broj stranica",
+	"bs-countthings-droplet-articles-description": "Prikazuje broj stranica",
+	"bs-countthings-droplet-characters-name": "Broj znakova",
+	"bs-countthings-droplet-characters-description": "Prikazuje broj karaktera ili reči u stranici",
+	"bs-countthings-droplet-files-name": "Broj datoteka",
+	"bs-countthings-droplet-files-description": "Prikazuje broj svih otpremljenih datoteka",
+	"bs-countthings-droplet-user-name": "Broj korisnika",
+	"bs-countthings-droplet-user-description": "Prikazuje broj svih korisnika"
 }
