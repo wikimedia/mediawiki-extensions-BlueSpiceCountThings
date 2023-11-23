@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Marvire",
 			"Mykola Swarnyk",
 			"Piramidion",
 			"Ата"
@@ -31,5 +32,13 @@
 	"bs-countthings-tag-countcharacters-desc": "Генерує метадані вмісту вказаної статті. Вихідні дані є карткою, яку можна інтегрувати в статтю. Завдяки параметру «mode» може відображатися інший вид інформації.",
 	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Що слід рахувати <code>chars</code> (символи), <code>words</code> (слова) чи <code>pages</code> (сторінки).",
 	"bs-countthings-tag-countcharacters-example-1": "Кількість слів",
-	"bs-countthings-tag-countcharacters-example-2": "Кількість символів"
+	"bs-countthings-tag-countcharacters-example-2": "Кількість символів",
+	"bs-countthings-droplet-articles-name": "Кількість сторінок",
+	"bs-countthings-droplet-articles-description": "Показує кількість сторінок",
+	"bs-countthings-droplet-characters-name": "Кількість символів",
+	"bs-countthings-droplet-characters-description": "Показує кількість символів або слів на вікі-сторінці",
+	"bs-countthings-droplet-files-name": "Кількість файлів",
+	"bs-countthings-droplet-files-description": "Показує кількість завантажених файлів",
+	"bs-countthings-droplet-user-name": "Кількість користувачів",
+	"bs-countthings-droplet-user-description": "Показує кількість користувачів"
 }

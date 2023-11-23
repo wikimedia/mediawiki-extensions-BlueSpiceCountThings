@@ -6,6 +6,7 @@
 			"Kareyac",
 			"Megakott",
 			"Okras",
+			"Rich Flight22",
 			"Romanko Mikhail",
 			"Vlad5250"
 		]
@@ -39,5 +40,8 @@
 	"bs-countthings-droplet-articles-name": "Количество страниц",
 	"bs-countthings-droplet-files-name": "Количество файлов",
 	"bs-countthings-droplet-files-description": "Показывает количество всех загруженных файлов",
-	"bs-countthings-droplet-user-name": "Количество участников"
+	"bs-countthings-droplet-user-name": "Количество участников",
+	"bs-countthings-droplet-articles-description": "Показывает количество страниц",
+	"bs-countthings-droplet-characters-name": "Количество символов",
+	"bs-countthings-droplet-characters-description": "Показывает количество символов или слов на вики-странице."
 }
