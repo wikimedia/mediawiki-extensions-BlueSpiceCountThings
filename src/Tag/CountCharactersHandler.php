@@ -10,7 +10,10 @@ use MediaWiki\MediaWikiServices;
 
 class CountCharactersHandler extends Handler {
 
+	/** @var string */
 	protected $tagInput = '';
+
+	/** @var string[] */
 	protected $tagArgs = [ 'mode' ];
 
 	/**
