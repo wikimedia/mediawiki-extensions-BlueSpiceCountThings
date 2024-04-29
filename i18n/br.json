@@ -3,17 +3,17 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
-			"Huñvreüs"
+			"Hu\u00f1vre\u00fcs"
 		]
 	},
-	"bs-countthings-chars-label": "Arouezennoù",
-	"bs-countthings-words-label": "Gerioù",
-	"bs-countthings-pages-label": "Pajennoù",
+	"bs-countthings-chars-label": "Arouezenno\u00f9",
+	"bs-countthings-words-label": "Gerio\u00f9",
+	"bs-countthings-pages-label": "Pajenno\u00f9",
 	"bs-countthings-error-no-input": "N'eus bet pourchaset pajenn ebet.",
 	"bs-countthings-error-invalid-mode": "Direizh eo ar mod \"$1\". Implijit \"chars\", \"words\", pe \"pages\", mar plij.",
 	"bs-countthings-error-not-exist": "N'eus ket eus ar bajenn \"$1\".",
-	"bs-countthings-tag-countarticles-desc": "Diskwel an niver a bennadoù er wiki.",
+	"bs-countthings-tag-countarticles-desc": "Diskwel an niver a bennado\u00f9 er wiki.",
 	"bs-countthings-tag-countusers-desc": "Diskwel an niver a implijerien enskrivet.",
-	"bs-countthings-tag-countcharacters-example-1": "Niver a c'herioù",
-	"bs-countthings-tag-countcharacters-example-2": "Niver a arouezennoù"
+	"bs-countthings-tag-countcharacters-example-1": "Niver a c'herio\u00f9",
+	"bs-countthings-tag-countcharacters-example-2": "Niver a arouezenno\u00f9"
 }

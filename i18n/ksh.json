@@ -5,17 +5,17 @@
 			"Purodha"
 		]
 	},
-	"bs-countthings-desc": "Brängk schtatesteke övver der Ennhalld vum Wikki.",
+	"bs-countthings-desc": "Br\u00e4ngk schtatesteke \u00f6vver der Ennhalld vum Wikki.",
 	"bs-countthings-chars-label": "Zeijsche",
-	"bs-countthings-words-label": "Wööter",
+	"bs-countthings-words-label": "W\u00f6\u00f6ter",
 	"bs-countthings-pages-label": "Sigge",
 	"bs-countthings-error-no-input": "Kein Sigg aanjejovve.",
-	"bs-countthings-error-invalid-mode": "The mode \"$1\" es onjölltesch. Bes esu johd un nämm \"chars\", \"words\", or \"pages\".",
-	"bs-countthings-error-not-exist": "Di Sigg „$1“ jidd_et nit.",
+	"bs-countthings-error-invalid-mode": "The mode \"$1\" es onj\u00f6lltesch. Bes esu johd un n\u00e4mm \"chars\", \"words\", or \"pages\".",
+	"bs-countthings-error-not-exist": "Di Sigg \u201e$1\u201c jidd_et nit.",
 	"bs-countthings-tag-countarticles-desc": "Zeijsch de Aanzahl Atikelle em Wikki.",
-	"bs-countthings-tag-countusers-desc": "Zeijsch de Aanzahl aanjemääldte Metmaacher",
-	"bs-countthings-tag-countcharacters-desc": "Zeijsch Schtatesteke övver der Ennhalld vun dä aanjejovve Sigg. En Eijeschaff es verföhschbaa för en Enschtällong:",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Wat jezall wähde sull — <code>chars</code> (characters), <code>words</code> (words) or <code>pages</code> (pages).",
-	"bs-countthings-tag-countcharacters-example-1": "Aanzahl Wööter",
+	"bs-countthings-tag-countusers-desc": "Zeijsch de Aanzahl aanjem\u00e4\u00e4ldte Metmaacher",
+	"bs-countthings-tag-countcharacters-desc": "Zeijsch Schtatesteke \u00f6vver der Ennhalld vun d\u00e4 aanjejovve Sigg. En Eijeschaff es verf\u00f6hschbaa f\u00f6r en Enscht\u00e4llong:",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode<\/code>: Wat jezall w\u00e4hde sull \u2014 <code>chars<\/code> (characters), <code>words<\/code> (words) or <code>pages<\/code> (pages).",
+	"bs-countthings-tag-countcharacters-example-1": "Aanzahl W\u00f6\u00f6ter",
 	"bs-countthings-tag-countcharacters-example-2": "Aanzahl Zeijsche"
 }

@@ -8,11 +8,11 @@
 	},
 	"bs-countthings-ve-countcharacters-mode-all": "kaikki",
 	"bs-countthings-error-no-input": "Ei annettua sivua.",
-	"bs-countthings-tag-countcharacters-example-1": "Sanojen määrä",
-	"bs-countthings-tag-countcharacters-example-2": "Merkkien määrä",
+	"bs-countthings-tag-countcharacters-example-1": "Sanojen m\u00e4\u00e4r\u00e4",
+	"bs-countthings-tag-countcharacters-example-2": "Merkkien m\u00e4\u00e4r\u00e4",
 	"bs-countthings-ve-countcharacters-mode-charsonly": "merkit",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "sanat",
 	"bs-countthings-ve-countcharacters-mode-wordsandchars": "merkit ja sanat",
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "sivut",
-	"bs-countthings-droplet-articles-name": "Sivujen määrä"
+	"bs-countthings-droplet-articles-name": "Sivujen m\u00e4\u00e4r\u00e4"
 }

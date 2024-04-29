@@ -4,17 +4,17 @@
 			"Xuacu"
 		]
 	},
-	"bs-countthings-desc": "Ufre estadístiques basaes nel conteníu",
-	"bs-countthings-chars-label": "Caráuteres",
+	"bs-countthings-desc": "Ufre estad\u00edstiques basaes nel conten\u00edu",
+	"bs-countthings-chars-label": "Car\u00e1uteres",
 	"bs-countthings-words-label": "Palabres",
-	"bs-countthings-pages-label": "Páxines",
-	"bs-countthings-error-no-input": "Nun se dio nenguna páxina.",
-	"bs-countthings-error-invalid-mode": "El mou «$1» ye inválidu. Usa «chars» (caráuteres), «words» (palabres), o «pages» (páxines).",
-	"bs-countthings-error-not-exist": "La páxina «$1» nun esiste.",
-	"bs-countthings-tag-countarticles-desc": "Amuesa'l númberu d'artículos de la wiki.",
-	"bs-countthings-tag-countusers-desc": "Amuesa'l númberu d'usuarios rexistraos.",
-	"bs-countthings-tag-countcharacters-desc": "Xenera metadatos del conteníu del artículu indicáu. La salida ye un infobox que puede integrase nun artículu. Col parámetru \"mode\" puede amosar distintes clases d'información.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Lo qu'hai que contar <code>chars</code> (caráuteres), <code>words</code> (palabres) o <code>pages</code> (páxines).",
-	"bs-countthings-tag-countcharacters-example-1": "Númberu de palabres",
-	"bs-countthings-tag-countcharacters-example-2": "Númberu de caráuteres"
+	"bs-countthings-pages-label": "P\u00e1xines",
+	"bs-countthings-error-no-input": "Nun se dio nenguna p\u00e1xina.",
+	"bs-countthings-error-invalid-mode": "El mou \u00ab$1\u00bb ye inv\u00e1lidu. Usa \u00abchars\u00bb (car\u00e1uteres), \u00abwords\u00bb (palabres), o \u00abpages\u00bb (p\u00e1xines).",
+	"bs-countthings-error-not-exist": "La p\u00e1xina \u00ab$1\u00bb nun esiste.",
+	"bs-countthings-tag-countarticles-desc": "Amuesa'l n\u00famberu d'art\u00edculos de la wiki.",
+	"bs-countthings-tag-countusers-desc": "Amuesa'l n\u00famberu d'usuarios rexistraos.",
+	"bs-countthings-tag-countcharacters-desc": "Xenera metadatos del conten\u00edu del art\u00edculu indic\u00e1u. La salida ye un infobox que puede integrase nun art\u00edculu. Col par\u00e1metru \"mode\" puede amosar distintes clases d'informaci\u00f3n.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode<\/code>: Lo qu'hai que contar <code>chars<\/code> (car\u00e1uteres), <code>words<\/code> (palabres) o <code>pages<\/code> (p\u00e1xines).",
+	"bs-countthings-tag-countcharacters-example-1": "N\u00famberu de palabres",
+	"bs-countthings-tag-countcharacters-example-2": "N\u00famberu de car\u00e1uteres"
 }

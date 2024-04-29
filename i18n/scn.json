@@ -6,12 +6,12 @@
 	},
 	"bs-countthings-words-label": "Palori",
 	"bs-countthings-files-label": "File",
-	"bs-countthings-pages-label": "Pàggini",
+	"bs-countthings-pages-label": "P\u00e0ggini",
 	"bs-countthings-ve-countcharacters-mode-all": "tuttu",
 	"bs-countthings-ve-countcharacters-mode-wordsonly": "palori",
-	"bs-countthings-ve-countcharacters-mode-pagesonly": "pàggini",
-	"bs-countthings-ve-countcharacters-input-label": "Pàggini",
-	"bs-countthings-error-not-exist": "La pàggina \"$1\" nun esisti.",
-	"bs-countthings-tag-countusers-desc": "Ammustra lu nùmmiri di l'utenti riggistrati.",
-	"bs-countthings-tag-countcharacters-example-1": "Nùmmiri di palori"
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "p\u00e0ggini",
+	"bs-countthings-ve-countcharacters-input-label": "P\u00e0ggini",
+	"bs-countthings-error-not-exist": "La p\u00e0ggina \"$1\" nun esisti.",
+	"bs-countthings-tag-countusers-desc": "Ammustra lu n\u00f9mmiri di l'utenti riggistrati.",
+	"bs-countthings-tag-countcharacters-example-1": "N\u00f9mmiri di palori"
 }
