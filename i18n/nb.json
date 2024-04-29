@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald S\u00f8by"
 		]
 	},
 	"bs-countthings-desc": "Gir innholdsbasert statistikk",
@@ -21,19 +21,19 @@
 	"bs-countthings-ve-countcharacters-mode-pagesonly": "sider",
 	"bs-countthings-ve-countcharacters-input-label": "Sider",
 	"bs-countthings-error-no-input": "Ingen side oppgitt.",
-	"bs-countthings-error-invalid-mode": "Modusen «$1» er ugyldig. Bruk «chars», «words» eller «pages».",
-	"bs-countthings-error-not-exist": "Siden «$1» finnes ikke.",
-	"bs-countthings-tag-countarticles-desc": "Viser antall artikler på wikien.",
+	"bs-countthings-error-invalid-mode": "Modusen \u00ab$1\u00bb er ugyldig. Bruk \u00abchars\u00bb, \u00abwords\u00bb eller \u00abpages\u00bb.",
+	"bs-countthings-error-not-exist": "Siden \u00ab$1\u00bb finnes ikke.",
+	"bs-countthings-tag-countarticles-desc": "Viser antall artikler p\u00e5 wikien.",
 	"bs-countthings-tag-countusers-desc": "Viser antall registrerte brukere.",
-	"bs-countthings-tag-countfiles-desc": "Viser antall filer på wikien.",
-	"bs-countthings-tag-countcharacters-desc": "Genererer metadata om innholdet til den gitte artikkelen. Resultatet er en infoboks som kan integreres i en artikkel. Med parameteren «mode» kan forskjellige typer informasjon vises.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Hva som skal telles: <code>chars</code> (tegn), <code>words</code> (ord) eller <code>pages</code> (sider).",
+	"bs-countthings-tag-countfiles-desc": "Viser antall filer p\u00e5 wikien.",
+	"bs-countthings-tag-countcharacters-desc": "Genererer metadata om innholdet til den gitte artikkelen. Resultatet er en infoboks som kan integreres i en artikkel. Med parameteren \u00abmode\u00bb kan forskjellige typer informasjon vises.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode<\/code>: Hva som skal telles: <code>chars<\/code> (tegn), <code>words<\/code> (ord) eller <code>pages<\/code> (sider).",
 	"bs-countthings-tag-countcharacters-example-1": "Antall ord",
 	"bs-countthings-tag-countcharacters-example-2": "Antall tegn",
 	"bs-countthings-droplet-articles-name": "Antall sider",
 	"bs-countthings-droplet-articles-description": "Viser antall sider",
 	"bs-countthings-droplet-characters-name": "Antall tegn",
-	"bs-countthings-droplet-characters-description": "Viser antall tegn eller ord på en wikiside",
+	"bs-countthings-droplet-characters-description": "Viser antall tegn eller ord p\u00e5 en wikiside",
 	"bs-countthings-droplet-files-name": "Antall filer",
 	"bs-countthings-droplet-files-description": "Viser antall opplastede filer",
 	"bs-countthings-droplet-user-name": "Antall brukere",
