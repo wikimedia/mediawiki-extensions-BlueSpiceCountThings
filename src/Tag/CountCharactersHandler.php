@@ -7,6 +7,7 @@ use BlueSpice\Renderer\Params;
 use BlueSpice\RendererFactory;
 use BlueSpice\Tag\Handler;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 class CountCharactersHandler extends Handler {
 
@@ -49,7 +50,7 @@ class CountCharactersHandler extends Handler {
 		}
 		$titles = [];
 		foreach ( $this->tagInput as $title ) {
-			$titleInstance = \Title::newFromText( $title );
+			$titleInstance = Title::newFromText( $title );
 			if ( $titleInstance ) {
 				$titles[$title] = $titleInstance;
 			}
@@ -99,7 +100,7 @@ class CountCharactersHandler extends Handler {
 
 			$params = new Params( [
 				'title' => $title,
-				'titlelink' => $lr->makeLink( \Title::newFromText( $title ) ),
+				'titlelink' => $lr->makeLink( Title::newFromText( $title ) ),
 				Renderer::PARAM_CONTENT => $content
 				] );
 			$return .= $rendererFactory->get( 'countthings-countcharacters', $params )->render();
