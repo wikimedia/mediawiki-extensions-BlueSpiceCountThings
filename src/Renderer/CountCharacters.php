@@ -5,8 +5,8 @@ namespace BlueSpice\CountThings\Renderer;
 use BlueSpice\Renderer\Params;
 use BlueSpice\TemplateRenderer;
 use BlueSpice\Utility\CacheHelper;
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Linker\LinkRenderer;
 
 class CountCharacters extends TemplateRenderer {
@@ -19,7 +19,7 @@ class CountCharacters extends TemplateRenderer {
 	 * @param Config $config
 	 * @param Params $params
 	 * @param LinkRenderer|null $linkRenderer
-	 * @param IContextSource|null $context
+	 * @param IContextSourcee|null $context
 	 * @param string $name | ''
 	 * @param CacheHelper|null $cacheHelper
 	 */
