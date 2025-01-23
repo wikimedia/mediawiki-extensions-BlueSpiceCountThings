@@ -5,8 +5,8 @@ namespace BlueSpice\CountThings\Renderer;
 use BlueSpice\Renderer\Params;
 use BlueSpice\TemplateRenderer;
 use BlueSpice\Utility\CacheHelper;
-use Config;
 use IContextSource;
+use MediaWiki\Config\Config;
 use MediaWiki\Linker\LinkRenderer;
 
 class CountCharacters extends TemplateRenderer {
