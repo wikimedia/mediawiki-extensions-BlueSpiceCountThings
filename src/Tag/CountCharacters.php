@@ -2,6 +2,8 @@
 
 namespace BlueSpice\CountThings\Tag;
 
+use MediaWiki\Parser\Parser;
+
 class CountCharacters extends \BlueSpice\Tag\Tag {
 
 	/**
@@ -16,11 +18,11 @@ class CountCharacters extends \BlueSpice\Tag\Tag {
 	 *
 	 * @param string $processedInput
 	 * @param array $processedArgs
-	 * @param \Parser $parser
+	 * @param Parser $parser
 	 * @param \PPFrame $frame
 	 * @return CountCharactersHandler
 	 */
-	public function getHandler( $processedInput, array $processedArgs, \Parser $parser,
+	public function getHandler( $processedInput, array $processedArgs, Parser $parser,
 		\PPFrame $frame ) {
 		return new CountCharactersHandler(
 			$processedInput,
