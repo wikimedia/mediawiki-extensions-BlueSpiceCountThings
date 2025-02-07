@@ -5,7 +5,7 @@ namespace BlueSpice\CountThings\Tag;
 use BlueSpice\Tag\Handler;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
-use NamespaceInfo;
+use MediaWiki\Title\NamespaceInfo;
 use SiteStats;
 
 class CountArticlesHandler extends Handler {
