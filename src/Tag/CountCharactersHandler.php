@@ -8,6 +8,7 @@ use BlueSpice\RendererFactory;
 use BlueSpice\Tag\Handler;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 use MediaWiki\Title\Title;
 
 class CountCharactersHandler extends Handler {
@@ -23,10 +24,10 @@ class CountCharactersHandler extends Handler {
 	 * @param string $processedInput
 	 * @param array $processedArgs
 	 * @param Parser $parser
-	 * @param \PPFrame $frame
+	 * @param PPFrame $frame
 	 */
 	public function __construct( $processedInput, array $processedArgs, Parser $parser,
-		\PPFrame $frame ) {
+		PPFrame $frame ) {
 		$this->tagInput = explode( ' ', trim( $processedInput ) );
 		$this->tagArgs = $processedArgs;
 		parent::__construct( $processedInput, $processedArgs, $parser, $frame );
