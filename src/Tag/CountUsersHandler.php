@@ -3,6 +3,7 @@
 namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\Tag\Handler;
+use MediaWiki\Parser\Parser;
 
 class CountUsersHandler extends Handler {
 
@@ -10,10 +11,10 @@ class CountUsersHandler extends Handler {
 	 *
 	 * @param string $processedInput
 	 * @param array $processedArgs
-	 * @param \Parser $parser
+	 * @param Parser $parser
 	 * @param \PPFrame $frame
 	 */
-	public function __construct( $processedInput, array $processedArgs, \Parser $parser,
+	public function __construct( $processedInput, array $processedArgs, Parser $parser,
 		\PPFrame $frame ) {
 		parent::__construct( $processedInput, $processedArgs, $parser, $frame );
 	}
