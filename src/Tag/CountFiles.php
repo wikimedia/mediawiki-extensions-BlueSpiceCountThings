@@ -8,6 +8,7 @@ use BlueSpice\Tag\GenericHandler;
 use BlueSpice\Tag\Tag;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 
 class CountFiles extends Tag {
 
@@ -18,11 +19,11 @@ class CountFiles extends Tag {
 	 * @param string $processedInput
 	 * @param array $processedArgs
 	 * @param Parser $parser
-	 * @param \PPFrame $frame
+	 * @param PPFrame $frame
 	 * @return \BlueSpice\CountThings\Tag\CountFilesHandler
 	 */
 	public function getHandler( $processedInput, array $processedArgs, Parser $parser,
-		\PPFrame $frame ) {
+		PPFrame $frame ) {
 		$loadBalancer = MediaWikiServices::getInstance()->getDBLoadBalancer();
 		return new CountFilesHandler(
 			$loadBalancer,
