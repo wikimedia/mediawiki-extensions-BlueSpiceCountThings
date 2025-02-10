@@ -3,6 +3,7 @@
 namespace BlueSpice\CountThings\Tag;
 
 use BlueSpice\Tag\Handler;
+use MediaWiki\Parser\CoreParserFunctions;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
 
@@ -25,7 +26,7 @@ class CountUsersHandler extends Handler {
 	 * @return string
 	 */
 	public function handle() {
-		$count = \CoreParserFunctions::numberofusers( $this->parser );
+		$count = CoreParserFunctions::numberofusers( $this->parser );
 		return " $count ";
 	}
 }
