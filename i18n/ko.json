@@ -5,6 +5,7 @@
 			"Hwangjy9",
 			"Maoue",
 			"Suleiman the Magnificent Television",
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -38,5 +39,6 @@
 	"bs-countthings-droplet-files-name": "파일 수",
 	"bs-countthings-droplet-files-description": "업로드된 모든 파일의 수를 표시합니다",
 	"bs-countthings-droplet-user-name": "사용자 수",
-	"bs-countthings-droplet-user-description": "모든 사용자 수를 표시합니다"
+	"bs-countthings-droplet-user-description": "모든 사용자 수를 표시합니다",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: <code>chars</code> (글자), <code>words</code> (단어), <code>pages</code> (문서) 중 무엇을 셀 것인지 선택합니다."
 }
