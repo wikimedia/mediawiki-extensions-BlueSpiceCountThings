@@ -23,9 +23,10 @@ class CountCharacters extends TemplateRenderer {
 	 * @param string $name | ''
 	 * @param CacheHelper|null $cacheHelper
 	 */
-	protected function __construct( Config $config, Params $params,
-		LinkRenderer $linkRenderer = null, IContextSource $context = null,
-		$name = '', CacheHelper $cacheHelper = null ) {
+	protected function __construct(
+		Config $config, Params $params,	?LinkRenderer $linkRenderer = null,
+		?IContextSource $context = null, $name = '', ?CacheHelper $cacheHelper = null
+	) {
 		parent::__construct(
 			$config,
 			$params,
