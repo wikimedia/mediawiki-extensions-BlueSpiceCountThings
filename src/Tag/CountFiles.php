@@ -4,6 +4,7 @@ namespace BlueSpice\CountThings\Tag;
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use MWStake\MediaWiki\Component\FormEngine\StandaloneFormSpecification;
 use MWStake\MediaWiki\Component\GenericTagHandler\ClientTagSpecification;
 use MWStake\MediaWiki\Component\GenericTagHandler\GenericTag;
 use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
@@ -43,7 +44,7 @@ class CountFiles extends GenericTag {
 	 * @inheritDoc
 	 */
 	public function getParamDefinition(): ?array {
-		$noDuplicated = ( new BooleanValue() )->setDefaultValue( true );
+		$noDuplicated = ( new BooleanValue() )->setDefaultValue( false );
 
 		return [ 'noduplicates' => $noDuplicated ];
 	}
@@ -52,10 +53,22 @@ class CountFiles extends GenericTag {
 	 * @inheritDoc
 	 */
 	public function getClientTagSpecification(): ClientTagSpecification|null {
+		$formSpec = new StandaloneFormSpecification();
+		$formSpec->setItems(
+			[
+				[
+					'type' => 'checkbox',
+					'name' => 'noduplicates',
+					'label' => Message::newFromKey( 'bs-countthings-tag-countfiles-count-duplicates-label' )->text(),
+					'labelAlign' => 'inline'
+				]
+			]
+		);
+
 		return new ClientTagSpecification(
 			'CountFiles',
 			Message::newFromKey( 'bs-countthings-tag-countfiles-desc' ),
-			null,
+			$formSpec,
 			Message::newFromKey( 'bs-countthings-ve-countfiles-title' )
 		);
 	}
