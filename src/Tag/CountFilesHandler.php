@@ -18,9 +18,9 @@ class CountFilesHandler implements ITagHandler {
 	}
 
 	public function getRenderedContent( string $input, array $params, Parser $parser, PPFrame $frame ): string {
-		$distinct = '';
+		$distinct = 'DISTINCT';
 		if ( $params['noduplicates'] ) {
-			$distinct = 'DISTINCT';
+			$distinct = '';
 		}
 		$number = $this->lb->getConnection( DB_REPLICA )->newSelectQueryBuilder()
 			->from( 'image' )
