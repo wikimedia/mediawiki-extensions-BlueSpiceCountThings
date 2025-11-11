@@ -66,7 +66,7 @@ class CountCharacters extends GenericTag {
 				'type' => 'dropdown',
 				'name' => 'mode',
 				'label' => Message::newFromKey( 'bs-countthings-ve-countthingsinspector-mode' )->text(),
-				'help' => Message::newFromKey( 'bs-countthings-tag-countcharacters-desc-param-mode' )->text(),
+				'help' => Message::newFromKey( 'bs-countthings-tag-countcharacters-desc-mode-help' )->text(),
 				'widget_$overlay' => true,
 				'options' => [
 					[
@@ -96,10 +96,10 @@ class CountCharacters extends GenericTag {
 		] );
 
 		return new ClientTagSpecification(
-			'CountArticles',
-			Message::newFromKey( 'bs-countthings-tag-countarticles-desc' ),
+			'CountCharacters',
+			Message::newFromKey( 'bs-countthings-tag-countcharacters-desc' ),
 			$formSpec,
-			Message::newFromKey( 'bs-countthings-ve-countarticles-title' ),
+			Message::newFromKey( 'bs-countthings-ve-countcharacters-title' ),
 			null,
 			false
 		);
