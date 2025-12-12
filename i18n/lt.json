@@ -27,7 +27,6 @@
 	"bs-countthings-tag-countarticles-desc": "Rodo viki straipsnių skaičių.",
 	"bs-countthings-tag-countusers-desc": "Rodo prisiregistravusių vartotojų skaičių.",
 	"bs-countthings-tag-countfiles-desc": "Rodo viki failų skaičių.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Kas turi būti skaičiuojama <code>chars</code> (simboliai), <code>words</code> (žodžiai) ar <code>pages</code> (puslapiai).",
 	"bs-countthings-droplet-articles-name": "Puslapių skaičius",
 	"bs-countthings-droplet-articles-description": "Rodo puslapių skaičių",
 	"bs-countthings-droplet-characters-name": "Simbolių skaičius",

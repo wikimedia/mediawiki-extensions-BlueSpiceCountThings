@@ -27,7 +27,6 @@
 	"bs-countthings-tag-countusers-desc": "Pokazuje ličbu zapisanych wužiwarjow.",
 	"bs-countthings-tag-countfiles-desc": "Pokazuje ličbu datajow we wikiju.",
 	"bs-countthings-tag-countcharacters-desc": "Wutworja metadaty wo wobsahu podateho zapiska. Wudaće je infokašćik, kiž hodźi so do zapiska zatwarić. Z parametrom „mode“ hodźa so dalše družiny informacijow pokazać.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Što ma so ličić <code>chars</code> (znamješka), <code>words</code> (słowa) abo <code>pages</code> (strony).",
 	"bs-countthings-droplet-articles-name": "Ličba stronow",
 	"bs-countthings-droplet-articles-description": "Pokazuje ličbu wšěch stronow",
 	"bs-countthings-droplet-characters-name": "Ličba znamješkow",

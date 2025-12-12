@@ -26,7 +26,6 @@
 	"bs-countthings-tag-countarticles-desc": "Weist d'Zuel vun de Säiten an der Wiki.",
 	"bs-countthings-tag-countusers-desc": "Weist d'Zuel vun de registréierte Benotzer.",
 	"bs-countthings-tag-countfiles-desc": "Weist d'Zuel vun de Fichieren an der Wiki.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Wat gezielt gi soll <code>chars</code> (Zeechen), <code>words</code> (wierder) oder <code>pages</code> (Säiten).",
 	"bs-countthings-droplet-articles-name": "Zuel vun de Säiten",
 	"bs-countthings-droplet-characters-name": "Zuel vun den Zeechen",
 	"bs-countthings-droplet-characters-description": "Weist d'Zuel vun den Zeechen oder Wierder op enger Wikisäit",

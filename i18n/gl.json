@@ -30,7 +30,6 @@
 	"bs-countthings-tag-countusers-desc": "Amosa o número de usuarios rexistrados.",
 	"bs-countthings-tag-countfiles-desc": "Amosa o número de ficheiros no wiki.",
 	"bs-countthings-tag-countcharacters-desc": "Xera metadatos sobre o contido do artigo indicado. A saída é unha caixa de información que se pode integrar nun artigo. Co parámetro «mode» poden visualizarse distintos tipos de información.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: o que se debe contar como <code>chars</code> (caracteres), <code>words</code> (palabras) ou <code>pages</code> (páxinas).",
 	"bs-countthings-droplet-articles-name": "Número de páxinas",
 	"bs-countthings-droplet-articles-description": "Amosa o número de páxinas",
 	"bs-countthings-droplet-characters-name": "Número de caracteres",

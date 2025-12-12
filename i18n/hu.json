@@ -29,7 +29,6 @@
 	"bs-countthings-tag-countusers-desc": "Megjeleníti a regisztrált felhasználók számát.",
 	"bs-countthings-tag-countfiles-desc": "Megjeleníti a wikin található fájlok számát.",
 	"bs-countthings-tag-countcharacters-desc": "Metaadatokat generál a jelzett szócikk tartalmáról. A kimenet egy információs doboz, amely integrálható egy szócikkbe. A „mode” paraméterrel különböző típusú információk jeleníthetők meg.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Mit számoljon: <code>diagramok</code> (karakterek), <code>words</code> (szavak) vagy <code>pages</code> (lapok).",
 	"bs-countthings-droplet-articles-name": "Lapok száma",
 	"bs-countthings-droplet-articles-description": "Lapok számának megjelenítése",
 	"bs-countthings-droplet-characters-name": "Karakterek száma",

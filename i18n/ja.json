@@ -34,7 +34,6 @@
 	"bs-countthings-tag-countusers-desc": "登録利用者数を表示する。",
 	"bs-countthings-tag-countfiles-desc": "このウィキのファイル数を表示する。",
 	"bs-countthings-tag-countcharacters-desc": "指定した記事の内容に関するメタデータを生成。出力は記事に統合できるinfobox形式。modeパラメータを使うと、様々な情報を表示可能。",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>:<code>chars</code> (文字)、 <code>words</code> (単語)、または<code>pages</code> (ページ) をカウントする必要があります。",
 	"bs-countthings-droplet-articles-name": "ページ数",
 	"bs-countthings-droplet-articles-description": "ページ数を表示",
 	"bs-countthings-droplet-characters-name": "文字数",

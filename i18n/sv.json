@@ -30,7 +30,6 @@
 	"bs-countthings-tag-countusers-desc": "Visar antalet registrerade användare.",
 	"bs-countthings-tag-countfiles-desc": "Visar antalet filer i wikin.",
 	"bs-countthings-tag-countcharacters-desc": "Genererar metadata om innehållet i den angivna artikeln. Resultatet är en infobox som kan integreras i en artikel. Med parametern \"mode\" kan olika typer av information visas.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Vad ska räknas <code>chars</code> (tecken), <code>words</code> (ord) eller <code>pages</code> (sidor).",
 	"bs-countthings-droplet-articles-name": "Antal sidor",
 	"bs-countthings-droplet-articles-description": "Visar antalet sidor",
 	"bs-countthings-droplet-characters-name": "Antal tecken"

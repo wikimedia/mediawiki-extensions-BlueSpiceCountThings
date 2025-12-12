@@ -29,7 +29,6 @@
 	"bs-countthings-tag-countusers-desc": "Prikaže število registriranih uporabnikov.",
 	"bs-countthings-tag-countfiles-desc": "Prikaže število datotek v vikiju.",
 	"bs-countthings-tag-countcharacters-desc": "Ustvari metapodatke iz vsebine navedenega članka. Izhod je infopolje, ki ga lahko vključite v članek. S parametrom »mode« lahko prikažete različne vrste informacij.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Kaj naj se šteje? <code>chars</code> (znaki), <code>words</code> (besede) ali <code>pages</code> (strani).",
 	"bs-countthings-droplet-articles-name": "Število strani",
 	"bs-countthings-droplet-articles-description": "Prikaže število strani",
 	"bs-countthings-droplet-characters-name": "Število znakov",
