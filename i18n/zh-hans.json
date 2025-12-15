@@ -5,6 +5,7 @@
 			"Evesiesta",
 			"John Smith Ri",
 			"Liuxinyu970226",
+			"Peterxy12",
 			"Phenolla",
 			"Yfdyh000",
 			"夢蝶葬花"
@@ -43,5 +44,6 @@
 	"bs-countthings-droplet-characters-description": "显示一个维基页面中的字符数或单词数",
 	"bs-countthings-droplet-files-name": "文件数",
 	"bs-countthings-droplet-files-description": "显示所有上传文件的数量",
-	"bs-countthings-droplet-user-description": "显示所有用户的数量"
+	"bs-countthings-droplet-user-description": "显示所有用户的数量",
+	"bs-countthings-tag-countcharacters-desc-mode-help": "指定应计数内容：全部、字符、单词、字符与单词、或页数。"
 }
