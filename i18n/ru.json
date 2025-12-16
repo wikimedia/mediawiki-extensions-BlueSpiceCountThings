@@ -34,7 +34,6 @@
 	"bs-countthings-tag-countusers-desc": "Показывает число зарегистрированных участников.",
 	"bs-countthings-tag-countfiles-desc": "Показывает количество файлов в вики.",
 	"bs-countthings-tag-countcharacters-desc": "Генерирует метаданные о содержании указанной статьи. На выходе получается карточка, которая может быть включена в статью. С помощью параметра «mode» можно отображать разные типы информации.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Что следует считать <code>chars</code> (символы), <code>words</code> (слова) или <code>pages</code> (страницы).",
 	"bs-countthings-droplet-articles-name": "Количество страниц",
 	"bs-countthings-droplet-articles-description": "Показывает количество страниц",
 	"bs-countthings-droplet-characters-name": "Количество символов",

@@ -32,7 +32,6 @@
 	"bs-countthings-tag-countusers-desc": "يعرض عدد المستخدمين المسجلين.",
 	"bs-countthings-tag-countfiles-desc": "يعرض عدد الملفات في الويكي.",
 	"bs-countthings-tag-countcharacters-desc": "يولد بيانات وصفية عن محتوى المقالة المشار إليها، الإخراج هو صندوق معلومات يمكن دمجه في مقالة، مع الوسيط \"mode\" يمكن عرض نوع مختلف من المعلومات.",
-	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: ما يجب أن يُحسَب <code>chars</code> (characters) أو <code>words</code> (كلمات) أو <code>pages</code> (صفحات).",
 	"bs-countthings-droplet-articles-name": "عدد الصفحات",
 	"bs-countthings-droplet-articles-description": "يظهر عدد الصفحات",
 	"bs-countthings-droplet-characters-name": "عدد الحروف",
