@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fafau06",
 			"Rachmat.Wahidi",
 			"Rachmat04",
 			"Veracious"
@@ -11,5 +12,6 @@
 	"bs-countthings-tag-countcharacters-example-1": "Jumlah kata",
 	"bs-countthings-tag-countcharacters-example-2": "Jumlah karakter",
 	"bs-countthings-droplet-articles-name": "Jumlah halaman",
-	"bs-countthings-droplet-files-name": "Jumlah berkas"
+	"bs-countthings-droplet-files-name": "Jumlah berkas",
+	"bs-countthings-tag-countfiles-count-duplicates-label": "Hitung duplikat"
 }
