@@ -3,6 +3,7 @@
 		"authors": [
 			"Josve05a",
 			"Lokal Profil",
+			"Stefan2255",
 			"Sturban",
 			"WikiPhoenix"
 		]
@@ -35,5 +36,6 @@
 	"bs-countthings-tag-countcharacters-example-2": "Antal tecken",
 	"bs-countthings-droplet-articles-name": "Antal sidor",
 	"bs-countthings-droplet-articles-description": "Visar antalet sidor",
-	"bs-countthings-droplet-characters-name": "Antal tecken"
+	"bs-countthings-droplet-characters-name": "Antal tecken",
+	"bs-countthings-tag-countfiles-count-duplicates-label": "Räkna dubbletter"
 }
