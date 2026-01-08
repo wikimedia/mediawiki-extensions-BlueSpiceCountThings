@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Avengium",
 			"Carlosmg.dg",
 			"Dgstranz",
 			"Fitoschido",
 			"Jakeukalane",
 			"Macofe",
 			"Rodney Araujo",
-			"Yllelder",
-			"Avengium"
+			"Yllelder"
 		]
 	},
 	"bs-countthings-desc": "Proporciona estadísticas basadas en contenido",
