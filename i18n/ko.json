@@ -40,5 +40,7 @@
 	"bs-countthings-droplet-files-name": "파일 수",
 	"bs-countthings-droplet-files-description": "업로드된 모든 파일의 수를 표시합니다",
 	"bs-countthings-droplet-user-name": "사용자 수",
-	"bs-countthings-droplet-user-description": "모든 사용자 수를 표시합니다"
+	"bs-countthings-droplet-user-description": "모든 사용자 수를 표시합니다",
+	"bs-countthings-tag-countfiles-count-duplicates-label": "중복 세기",
+	"bs-countthings-tag-countcharacters-desc-mode-help": "셀 대상을 명시하세요: 모든 것, 문자, 단어, 문자 및 단어, 또는 페이지"
 }
